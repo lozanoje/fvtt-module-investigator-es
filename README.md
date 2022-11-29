@@ -29,3 +29,7 @@ Este módulo se instala manualmente usando su enlace manifiesto:
 
 **Compendios para Investigator**: 
 __Manifiesto__: https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/module.json
+
+## Ajustes
+
+![](https://github.com/lozanoje/fvtt-module-investigator-es/blob/assets/Ajustes%20fvtt-module-investigator-es.jpg)
