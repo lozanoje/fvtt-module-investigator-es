@@ -1,0 +1,227 @@
+{
+  "title": "Compendios para Investigator",
+  "id": "fvtt-module-investigator-es",
+  "description": "Compendios genéricos para el sistema INVESTIGATOR",
+  "version": "1.3",
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.290"
+  },
+  "packs": [
+    {
+      "label": "Habilidades PJ Guardias de la noche",
+      "type": "Item",
+      "name": "habilidades-pj-guardias",
+      "path": "packs/habilidades-pj-guardias.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/habilidades-pj-guardias.db"
+    },
+    {
+      "label": "Armas Guardias de la noche",
+      "type": "Item",
+      "name": "armas-guardias",
+      "path": "packs/armas-guardias.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/armas-guardias.db"
+    },
+    {
+      "label": "Habilidades PNJ Guardias de la noche",
+      "type": "Item",
+      "name": "habilidades-pnj-guardias",
+      "path": "packs/habilidades-pnj-guardias.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/habilidades-pnj-guardias.db"
+    },
+    {
+      "label": "Equipo PNJ Guardias de la noche",
+      "type": "Item",
+      "name": "equipo-pnj-guardias",
+      "path": "packs/equipo-pnj-guardias.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/equipo-pnj-guardias.db"
+    },
+    {
+      "label": "Equipo PJ Guardias de la noche",
+      "type": "Item",
+      "name": "equipo-pj-guardias",
+      "path": "packs/equipo-pj-guardias.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/equipo-pj-guardias.db"
+    },
+    {
+      "label": "Habilidades PJ Esocriminales",
+      "type": "Item",
+      "name": "habilidades-pj-esocriminales",
+      "path": "packs/habilidades-pj-esocriminales.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/habilidades-pj-esocriminales.db"
+    },
+    {
+      "label": "Armas Esocriminales",
+      "type": "Item",
+      "name": "armas-esocriminales",
+      "path": "packs/armas-esocriminales.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/armas-esocriminales.db"
+    },
+    {
+      "label": "Habilidades PNJ Esocriminales",
+      "type": "Item",
+      "name": "habilidades-pnj-esocriminales",
+      "path": "packs/habilidades-pnj-esocriminales.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/habilidades-pnj-esocriminales.db"
+    },
+    {
+      "label": "Equipo PNJ Esocriminales",
+      "type": "Item",
+      "name": "equipo-pnj-esocriminales",
+      "path": "packs/equipo-pnj-esocriminales.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/equipo-pnj-esocriminales.db"
+    },
+    {
+      "label": "Equipo PJ Esocriminales",
+      "type": "Item",
+      "name": "equipo-pj-esocriminales",
+      "path": "packs/equipo-pj-esocriminales.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/equipo-pj-esocriminales.db"
+    },
+    {
+      "label": "Habilidades PJ El sendero de Cthulhu",
+      "type": "Item",
+      "name": "habilidades-pj-sendero",
+      "path": "packs/habilidades-pj-sendero.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/habilidades-pj-sendero.db"
+    },
+    {
+      "label": "Armas El sendero de Cthulhu",
+      "type": "Item",
+      "name": "armas-sendero",
+      "path": "packs/armas-sendero.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/armas-sendero.db"
+    },
+    {
+      "label": "Habilidades PNJ El sendero de Cthulhu",
+      "type": "Item",
+      "name": "habilidades-pnj-sendero",
+      "path": "packs/habilidades-pnj-sendero.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/habilidades-pnj-sendero.db"
+    },
+    {
+      "label": "Equipo PNJ El sendero de Cthulhu",
+      "type": "Item",
+      "name": "equipo-pnj-sendero",
+      "path": "packs/equipo-pnj-sendero.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/equipo-pnj-sendero.db"
+    },
+    {
+      "label": "Equipo PJ El sendero de Cthulhu",
+      "type": "Item",
+      "name": "equipo-pj-sendero",
+      "path": "packs/equipo-pj-sendero.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/equipo-pj-sendero.db"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Viriato139ac#0342",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "foundryvtt-es",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": {
+      "id": "investigator",
+      "type": "system",
+      "compatibility": "5.1.3"
+    }
+  },
+  "esmodules": [
+    "fvtt-module-investigator-es.js"
+  ],
+  "url": "https://github.com/lozanoje/fvtt-module-investigator-es",
+  "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/module.json",
+  "download": "https://github.com/lozanoje/fvtt-module-investigator-es/archive/main.zip"
+}
