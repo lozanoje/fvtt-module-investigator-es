@@ -32,4 +32,12 @@ __Manifiesto__: https://raw.githubusercontent.com/lozanoje/fvtt-module-investiga
 
 ## Ajustes
 
+En los ajustes de __Compendios para Investigator__ existen varias opciones:
+
 ![](https://github.com/lozanoje/fvtt-module-investigator-es/blob/assets/Ajustes%20fvtt-module-investigator-es.jpg)
+
+Si marca la primera y guarda los cambios, se restablecerán los compendios a su estado original.
+
+![](https://github.com/lozanoje/fvtt-module-investigator-es/blob/assets/Compendios%20fvtt-module-investigator-es.jpg)
+
+Si cambia el sistema, marca la última opción y guarda los cambios, el sistema INVESTIGATOR se configurará para usar la opción seleccionada.
