@@ -1,8 +1,12 @@
 {
   "title": "Compendios para Investigator",
   "id": "fvtt-module-investigator-es",
-  "description": "Compendios genéricos para el sistema INVESTIGATOR",
-  "version": "1.3",
+  "description": "Compendios para el sistema INVESTIGATOR",
+  "version": "1.4",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
   "languages": [
     {
       "lang": "es",
@@ -17,10 +21,6 @@
       "flags": {}
     }
   ],
-  "compatibility": {
-    "minimum": "10",
-    "verified": "10.290"
-  },
   "packs": [
     {
       "label": "Habilidades PJ Guardias de la noche",
@@ -186,12 +186,82 @@
       "flags": {},
       "package": "fvtt-module-investigator-es",
       "absPath": "packs/equipo-pj-sendero.db"
+    },
+    {
+      "label": "Habilidades PJ Cuchillas Viperinas",
+      "type": "Item",
+      "name": "habilidades-pj-cuchillas",
+      "path": "packs/habilidades-pj-cuchillas.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/habilidades-pj-cuchillas.db"
+    },
+    {
+      "label": "Habilidades PNJ Cuchillas Viperinas",
+      "type": "Item",
+      "name": "habilidades-pnj-cuchillas",
+      "path": "packs/habilidades-pnj-cuchillas.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "id": "world.habilidades-pnj-cuchillas",
+      "packageType": "world",
+      "packageName": "es-investigator-compendios",
+      "index": [],
+      "absPath": "packs/habilidades-pnj-cuchillas.db"
+    },
+    {
+      "label": "Armas Cuchillas Viperinas",
+      "type": "Item",
+      "name": "armas-cuchillas",
+      "path": "packs/armas-cuchillas.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "id": "world.armas-cuchillas",
+      "packageType": "world",
+      "packageName": "es-investigator-compendios",
+      "index": [],
+      "absPath": "packs/armas-cuchillas.db"
+    },
+    {
+      "label": "Equipo PJ Cuchillas Viperinas",
+      "type": "Item",
+      "name": "equipo-pj-cuchillas",
+      "path": "packs/equipo-pj-cuchillas.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "id": "world.equipo-pj-cuchillas",
+      "packageType": "world",
+      "packageName": "es-investigator-compendios",
+      "index": [],
+      "absPath": "packs/equipo-pj-cuchillas.db"
+    },
+    {
+      "label": "Equipo PNJ Cuchillas Viperinas",
+      "type": "Item",
+      "name": "equipo-pnj-cuchillas",
+      "path": "packs/equipo-pnj-cuchillas.db",
+      "system": "investigator",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-investigator-es",
+      "absPath": "packs/equipo-pnj-cuchillas.db"
     }
   ],
+  "url": "https://github.com/lozanoje/fvtt-module-investigator-es",
+  "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/module.json",
+  "download": "https://github.com/lozanoje/fvtt-module-investigator-es/archive/main.zip",
   "authors": [
     {
-      "name": "Viriato139ac#0342",
-      "flags": {}
+      "name": "Viriato139ac",
+      "discord": "@Viriato139ac#0342"
     }
   ],
   "relationships": {
@@ -215,13 +285,10 @@
     "systems": {
       "id": "investigator",
       "type": "system",
-      "compatibility": "5.1.3"
+      "compatibility": "6.0.0"
     }
   },
   "esmodules": [
     "fvtt-module-investigator-es.js"
-  ],
-  "url": "https://github.com/lozanoje/fvtt-module-investigator-es",
-  "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/module.json",
-  "download": "https://github.com/lozanoje/fvtt-module-investigator-es/archive/main.zip"
+  ]
 }
