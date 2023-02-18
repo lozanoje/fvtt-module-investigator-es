@@ -2,7 +2,7 @@
   "title": "Compendios para Investigator",
   "id": "fvtt-module-investigator-es",
   "description": "Compendios para el sistema INVESTIGATOR",
-  "version": "1.5",
+  "version": "1.6",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -207,10 +207,6 @@
       "private": false,
       "flags": {},
       "package": "fvtt-module-investigator-es",
-      "id": "world.habilidades-pnj-cuchillas",
-      "packageType": "world",
-      "packageName": "es-investigator-compendios",
-      "index": [],
       "absPath": "packs/habilidades-pnj-cuchillas.db"
     },
     {
@@ -222,10 +218,6 @@
       "private": false,
       "flags": {},
       "package": "fvtt-module-investigator-es",
-      "id": "world.armas-cuchillas",
-      "packageType": "world",
-      "packageName": "es-investigator-compendios",
-      "index": [],
       "absPath": "packs/armas-cuchillas.db"
     },
     {
@@ -237,10 +229,6 @@
       "private": false,
       "flags": {},
       "package": "fvtt-module-investigator-es",
-      "id": "world.equipo-pj-cuchillas",
-      "packageType": "world",
-      "packageName": "es-investigator-compendios",
-      "index": [],
       "absPath": "packs/equipo-pj-cuchillas.db"
     },
     {
@@ -285,7 +273,7 @@
     "systems": {
       "id": "investigator",
       "type": "system",
-      "compatibility": "6.0.0"
+      "compatibility": "6.1.0"
     }
   },
   "esmodules": [
