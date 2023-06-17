@@ -1,11 +1,11 @@
 {
-  "title": "Compendios para Investigator",
+  "title": "Translation: Spanish [Gumshoe]",
   "id": "fvtt-module-investigator-es",
   "description": "Compendios para el sistema INVESTIGATOR",
-  "version": "1.6",
+  "version": "7.10.1",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.291"
+    "verified": "11.301"
   },
   "languages": [
     {
@@ -273,7 +273,7 @@
     "systems": {
       "id": "investigator",
       "type": "system",
-      "compatibility": "6.1.0"
+      "compatibility": "7.1.0"
     }
   },
   "esmodules": [

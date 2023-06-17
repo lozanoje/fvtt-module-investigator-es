@@ -23,7 +23,7 @@ __Manifiesto__: https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/downl
 Y el sistema de juego:
 
 **INVESTIGATOR System (GUMSHOE SRD-compatible)**: https://foundryvtt.com/packages/investigator
-__Manifiesto__: https://gitlab.com/n3dst4/investigator-fvtt/-/raw/main/src/system.json
+__Manifiesto__: https://github.com/n3dst4/gumshoe-fvtt/releases/latest/download/system.json
 
 Este módulo se instala manualmente usando su enlace manifiesto:
 
