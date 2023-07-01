@@ -48,6 +48,7 @@
   "investigator.GeneralAbilityCategories": "General ability categories",
   "investigator.GoesFirstInCombat": "Goes first in combat?",
   "investigator.HasSpecialities": "Has specialities?",
+  "investigator.HideIfZeroRated": "Hide if zero-rated?",
   "investigator.HideZeroRatedAbilities": "Hide zero-rated abilities",
   "investigator.HitRoll": "Hit roll",
   "investigator.HitThreshold": "Hit Threshold",
@@ -55,12 +56,13 @@
   "investigator.Investigative": "Investigative",
   "investigator.InvestigativeAbility": "Investigative ability",
   "investigator.InvestigativeAbilityCategories": "Investigative ability categories",
+  "investigator.ItemName": "Name",
   "investigator.LongRange": "Long range",
   "investigator.Markdown": "Markdown",
   "investigator.Max": "Max",
   "investigator.Min": "Min",
   "investigator.NPCs": "NPCs",
-  "investigator.Name": "Name",
+  "investigator.PersonName": "Name",
   "investigator.NearRange": "Near range",
   "investigator.NewItem": "New item",
   "investigator.NewWeapon": "New weapon",
@@ -166,5 +168,8 @@
   "investigator.SituationalModifiers": "Situational Modifiers",
   "investigator.RefreshedAllOfActorNamesAbilities": "Refreshed all of {ActorName}'s abilities",
   "investigator.RefreshedAllOfActorNames24hRefreshAbilities": "Refreshed all of {ActorName}'s 24h refresh abilities",
-  "investigator.RefreshedAllOfActorNamesHoursHoursRefreshAbilities": "Refreshed all of {ActorName}'s {Hours}-hour refresh abilities"
+  "investigator.RefreshedAllOfActorNamesHoursHoursRefreshAbilities": "Refreshed all of {ActorName}'s {Hours}-hour refresh abilities",
+  "investigator.SpecialitiesMode": "Specialities mode",
+  "investigator.OnePerRank": "One per rank",
+  "investigator.234PerRank": "+2/+3/+4 per rank"
 }
