@@ -4,8 +4,8 @@
   "description": "Compendios para el sistema INVESTIGATOR",
   "version": "7.30.1",
   "compatibility": {
-    "minimum": "10",
-    "verified": "11.304"
+    "minimum": "11",
+    "verified": "11.308"
   },
   "languages": [
     {
@@ -21,226 +21,212 @@
       "flags": {}
     }
   ],
+  "packFolders": [
+  {
+    "name": "Cuchillas Viperinas",
+    "sorting": "a",
+	"color": "#983464",
+    "packs": ["armas-cuchillas", "equipo-pj-cuchillas", "equipo-pnj-cuchillas", "habilidades-pj-cuchillas", "habilidades-pnj-cuchillas"]
+  },
+  {
+    "name": "El sendero de Cthulhu",
+    "sorting": "a",
+	"color": "#7f8d3f",
+    "packs": ["armas-sendero", "equipo-pj-sendero", "equipo-pnj-sendero", "habilidades-pj-sendero", "habilidades-pnj-sendero"]
+  },
+    {
+    "name": "Esocriminales",
+    "sorting": "a",
+	"color": "#d6902e",
+    "packs": ["armas-esocriminales", "equipo-pj-esocriminales", "equipo-pnj-esocriminales", "habilidades-pj-esocriminales", "habilidades-pnj-esocriminales"]
+  },
+    {
+    "name": "Guardias de la noche",
+    "sorting": "a",
+	"color": "#750001",
+    "packs": ["armas-guardias", "equipo-pj-guardias", "equipo-pnj-guardias", "habilidades-pj-guardias", "habilidades-pnj-guardias"]
+  }
+  ],
   "packs": [
     {
-      "label": "Habilidades PJ Guardias de la noche",
-      "type": "Item",
       "name": "habilidades-pj-guardias",
+      "label": "Habilidades PJ Guardias de la noche",
       "path": "packs/habilidades-pj-guardias.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/habilidades-pj-guardias.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Armas Guardias de la noche",
-      "type": "Item",
       "name": "armas-guardias",
+      "label": "Armas Guardias de la noche",
       "path": "packs/armas-guardias.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/armas-guardias.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Habilidades PNJ Guardias de la noche",
-      "type": "Item",
       "name": "habilidades-pnj-guardias",
+      "label": "Habilidades PNJ Guardias de la noche",
       "path": "packs/habilidades-pnj-guardias.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/habilidades-pnj-guardias.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Equipo PNJ Guardias de la noche",
-      "type": "Item",
       "name": "equipo-pnj-guardias",
+      "label": "Equipo PNJ Guardias de la noche",
       "path": "packs/equipo-pnj-guardias.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/equipo-pnj-guardias.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Equipo PJ Guardias de la noche",
-      "type": "Item",
       "name": "equipo-pj-guardias",
+      "label": "Equipo PJ Guardias de la noche",
       "path": "packs/equipo-pj-guardias.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/equipo-pj-guardias.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Habilidades PJ Esocriminales",
-      "type": "Item",
       "name": "habilidades-pj-esocriminales",
+      "label": "Habilidades PJ Esocriminales",
       "path": "packs/habilidades-pj-esocriminales.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/habilidades-pj-esocriminales.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Armas Esocriminales",
-      "type": "Item",
       "name": "armas-esocriminales",
+      "label": "Armas Esocriminales",
       "path": "packs/armas-esocriminales.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/armas-esocriminales.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Habilidades PNJ Esocriminales",
-      "type": "Item",
       "name": "habilidades-pnj-esocriminales",
+      "label": "Habilidades PNJ Esocriminales",
       "path": "packs/habilidades-pnj-esocriminales.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/habilidades-pnj-esocriminales.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Equipo PNJ Esocriminales",
-      "type": "Item",
       "name": "equipo-pnj-esocriminales",
+      "label": "Equipo PNJ Esocriminales",
       "path": "packs/equipo-pnj-esocriminales.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/equipo-pnj-esocriminales.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Equipo PJ Esocriminales",
-      "type": "Item",
       "name": "equipo-pj-esocriminales",
+      "label": "Equipo PJ Esocriminales",
       "path": "packs/equipo-pj-esocriminales.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/equipo-pj-esocriminales.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Habilidades PJ El sendero de Cthulhu",
-      "type": "Item",
       "name": "habilidades-pj-sendero",
+      "label": "Habilidades PJ El sendero de Cthulhu",
       "path": "packs/habilidades-pj-sendero.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/habilidades-pj-sendero.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Armas El sendero de Cthulhu",
-      "type": "Item",
       "name": "armas-sendero",
+      "label": "Armas El sendero de Cthulhu",
       "path": "packs/armas-sendero.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/armas-sendero.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Habilidades PNJ El sendero de Cthulhu",
-      "type": "Item",
       "name": "habilidades-pnj-sendero",
+      "label": "Habilidades PNJ El sendero de Cthulhu",
       "path": "packs/habilidades-pnj-sendero.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/habilidades-pnj-sendero.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Equipo PNJ El sendero de Cthulhu",
-      "type": "Item",
       "name": "equipo-pnj-sendero",
+      "label": "Equipo PNJ El sendero de Cthulhu",
       "path": "packs/equipo-pnj-sendero.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/equipo-pnj-sendero.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Equipo PJ El sendero de Cthulhu",
-      "type": "Item",
       "name": "equipo-pj-sendero",
+      "label": "Equipo PJ El sendero de Cthulhu",
       "path": "packs/equipo-pj-sendero.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/equipo-pj-sendero.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Habilidades PJ Cuchillas Viperinas",
-      "type": "Item",
       "name": "habilidades-pj-cuchillas",
+      "label": "Habilidades PJ Cuchillas Viperinas",
       "path": "packs/habilidades-pj-cuchillas.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/habilidades-pj-cuchillas.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Habilidades PNJ Cuchillas Viperinas",
-      "type": "Item",
       "name": "habilidades-pnj-cuchillas",
+      "label": "Habilidades PNJ Cuchillas Viperinas",
       "path": "packs/habilidades-pnj-cuchillas.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/habilidades-pnj-cuchillas.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Armas Cuchillas Viperinas",
-      "type": "Item",
       "name": "armas-cuchillas",
+      "label": "Armas Cuchillas Viperinas",
       "path": "packs/armas-cuchillas.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/armas-cuchillas.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Equipo PJ Cuchillas Viperinas",
-      "type": "Item",
       "name": "equipo-pj-cuchillas",
+      "label": "Equipo PJ Cuchillas Viperinas",
       "path": "packs/equipo-pj-cuchillas.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/equipo-pj-cuchillas.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     },
     {
-      "label": "Equipo PNJ Cuchillas Viperinas",
-      "type": "Item",
       "name": "equipo-pnj-cuchillas",
+      "label": "Equipo PNJ Cuchillas Viperinas",
       "path": "packs/equipo-pnj-cuchillas.db",
-      "system": "investigator",
       "private": false,
-      "flags": {},
-      "package": "fvtt-module-investigator-es",
-      "absPath": "packs/equipo-pnj-cuchillas.db"
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
     }
   ],
   "url": "https://github.com/lozanoje/fvtt-module-investigator-es",
@@ -249,32 +235,25 @@
   "authors": [
     {
       "name": "Viriato139ac",
-      "discord": "@Viriato139ac#0342"
+      "discord": "@Viriato139ac#0342",
+      "flags": {}
     }
   ],
   "relationships": {
-    "requires": [
+    "systems": [
       {
-        "id": "compendium-folders",
-        "type": "module",
+        "id": "investigator",
+        "type": "system",
         "compatibility": {}
-      },
-      {
-        "id": "lib-wrapper",
-        "type": "module",
-        "compatibility": {}
-      },
+      }
+    ],
+	"requires": [
       {
         "id": "foundryvtt-es",
         "type": "module",
         "compatibility": {}
       }
-    ],
-    "systems": {
-      "id": "investigator",
-      "type": "system",
-      "compatibility": "7.3.0"
-    }
+    ]
   },
   "esmodules": [
     "fvtt-module-investigator-es.js"

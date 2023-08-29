@@ -4,21 +4,14 @@ Compendios genéricos para el sistema INVESTIGATOR.
 
 ## Aviso
 
-Compatible únicamente con la v10
+Compatible únicamente con la v11
 
 ## Requerimientos
 
-Estos compendios necesitan tres módulos, se instalarán automáticamente cuando se instale fvtt-module-investigator-es
-
-**Compendium Folders**: https://foundryvtt.com/packages/compendium-folders
-__Manifiesto__: https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json
-
+Estos compendios necesita un módulo, se instalará automáticamente cuando se instale fvtt-module-investigator-es
 
 **Translation: Spanish [Core]**: https://foundryvtt.com/packages/FoundryVTT-ES
 __Manifiesto__: https://raw.githubusercontent.com/lozanoje/foundryvtt-es/master/module.json
-
-**libWrapper**: https://foundryvtt.com/packages/lib-wrapper
-__Manifiesto__: https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json
 
 Y el sistema de juego:
 
