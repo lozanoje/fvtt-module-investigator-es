@@ -26,17 +26,6 @@ Hooks.once('ready', () => {
 });
 
 Hooks.once("renderCompendiumDirectory", () => {
-  game.settings.register("fvtt-module-investigator-es", "restablecer-compendios", {
-    name: "Restablecer carpetas de compendios",
-    hint: "Se restablecerán las carpetas de los compendios a su configuracion inicial",
-    type: Boolean,
-    default: true,
-    scope: "world",
-    config: true,
-    onChange: (directory) => {
-      window.location.reload();
-    },
-  });
   game.settings.register("fvtt-module-investigator-es", "sistema-investigator", {
     name: "Sistema a configurar",
     hint: "Sistema Investigator que se desea configurar",
@@ -65,20 +54,6 @@ Hooks.once("renderCompendiumDirectory", () => {
       window.location.reload();
     },
   });
-
-  document.onkeyup = function (e) {
-    if (e.ctrlKey && e.altKey && e.which == 89) {
-      initCompendiums();
-    }
-  };
-
-  if (
-    game.user.isGM &&
-    game.settings.get("fvtt-module-investigator-es", "restablecer-compendios")
-  ) {
-    initCompendiums();
-  }
-
   if (
     game.user.isGM &&
     game.settings.get("fvtt-module-investigator-es", "restablecer-investigator")
@@ -107,26 +82,6 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
     }
   }
-
-  function initCompendiums() {
-    let compendiumFolderJson = JSON.parse(`{"hidden":{"compendiumList":[],"titleText":"hidden-compendiums","_id":"hidden","compendiums":[],"expanded":false,"colorText":"#000000","fontColorText":"#FFFFFF","type":"CompendiumEntry","entity":"CompendiumFolder","sorting":"a","parent":null,"pathToFolder":[],"folderIcon":null,"visible":true,"depth":1},"default":{"compendiumList":[],"titleText":"Default","_id":"default","colorText":"#000000","compendiums":[],"expanded":false,"fontColorText":"#FFFFFF","type":"CompendiumEntry","entity":"CompendiumFolder","sorting":"a","parent":null,"pathToFolder":[],"folderIcon":null,"visible":true,"depth":1},"cfolder_dYgyQCNS6q":{"titleText":"Compendios del sistema","colorText":"#498fa7","fontColorText":"#FFFFFF","type":"CompendiumEntry","_id":"cfolder_dYgyQCNS6q","entity":"CompendiumFolder","sorting":"a","parent":null,"pathToFolder":[],"compendiumList":["investigator.pathOfCthulhuAbilities","investigator.niceBlackAgentsAbilities","investigator.nothingToFearAbilities","investigator.pallidStarsAbilities","investigator.missingAbilitiesNote","investigator.opponentAbilities","investigator.srdWeapons","investigator.srdAbilities","investigator.castingTheRunesAbilities"],"folderIcon":null,"expanded":false,"visible":true,"compendiums":[{"code":"investigator.pathOfCthulhuAbilities","folder":"cfolder_dYgyQCNS6q"},{"code":"investigator.niceBlackAgentsAbilities","folder":"cfolder_dYgyQCNS6q"},{"code":"investigator.nothingToFearAbilities","folder":"cfolder_dYgyQCNS6q"},{"code":"investigator.pallidStarsAbilities","folder":"cfolder_dYgyQCNS6q"},{"code":"investigator.missingAbilitiesNote","folder":"cfolder_dYgyQCNS6q"},{"code":"investigator.opponentAbilities","folder":"cfolder_dYgyQCNS6q"},{"code":"investigator.srdWeapons","folder":"cfolder_dYgyQCNS6q"},{"code":"investigator.srdAbilities","folder":"cfolder_dYgyQCNS6q"},{"code":"investigator.castingTheRunesAbilities","folder":"cfolder_dYgyQCNS6q"}],"depth":1},"cfolder_sD04ZTd9GB":{"titleText":"Guardias de la noche","colorText":"#750001","fontColorText":"#FFFFFF","type":"CompendiumEntry","_id":"cfolder_sD04ZTd9GB","entity":"CompendiumFolder","sorting":"a","parent":null,"pathToFolder":[],"compendiumList":["fvtt-module-investigator-es.habilidades-pj-guardias","fvtt-module-investigator-es.armas-guardias","fvtt-module-investigator-es.habilidades-pnj-guardias","fvtt-module-investigator-es.equipo-pnj-guardias","fvtt-module-investigator-es.equipo-pj-guardias"],"folderIcon":null,"expanded":false,"visible":true,"compendiums":[{"code":"fvtt-module-investigator-es.habilidades-pj-guardias","folder":"cfolder_sD04ZTd9GB"},{"code":"fvtt-module-investigator-es.armas-guardias","folder":"cfolder_sD04ZTd9GB"},{"code":"fvtt-module-investigator-es.habilidades-pnj-guardias","folder":"cfolder_sD04ZTd9GB"},{"code":"fvtt-module-investigator-es.equipo-pnj-guardias","folder":"cfolder_sD04ZTd9GB"},{"code":"fvtt-module-investigator-es.equipo-pj-guardias","folder":"cfolder_sD04ZTd9GB"}],"depth":1},"cfolder_2URmRxovX2":{"titleText":"El sendero de Cthulhu","colorText":"#7f8d3f","fontColorText":"#FFFFFF","type":"CompendiumEntry","_id":"cfolder_2URmRxovX2","entity":"CompendiumFolder","sorting":"a","parent":null,"pathToFolder":[],"compendiumList":["fvtt-module-investigator-es.habilidades-pj-sendero","fvtt-module-investigator-es.armas-sendero","fvtt-module-investigator-es.habilidades-pnj-sendero","fvtt-module-investigator-es.equipo-pnj-sendero","fvtt-module-investigator-es.equipo-pj-sendero"],"folderIcon":null,"expanded":false,"visible":true,"compendiums":[{"code":"fvtt-module-investigator-es.habilidades-pj-sendero","folder":"cfolder_2URmRxovX2"},{"code":"fvtt-module-investigator-es.armas-sendero","folder":"cfolder_2URmRxovX2"},{"code":"fvtt-module-investigator-es.habilidades-pnj-sendero","folder":"cfolder_2URmRxovX2"},{"code":"fvtt-module-investigator-es.equipo-pnj-sendero","folder":"cfolder_2URmRxovX2"},{"code":"fvtt-module-investigator-es.equipo-pj-sendero","folder":"cfolder_2URmRxovX2"}],"depth":1},"cfolder_RG8A6VepM5":{"titleText":"Esocriminales","colorText":"#d6902e","fontColorText":"#FFFFFF","type":"CompendiumEntry","_id":"cfolder_RG8A6VepM5","entity":"CompendiumFolder","sorting":"a","parent":null,"pathToFolder":[],"compendiumList":["fvtt-module-investigator-es.habilidades-pj-esocriminales","fvtt-module-investigator-es.armas-esocriminales","fvtt-module-investigator-es.habilidades-pnj-esocriminales","fvtt-module-investigator-es.equipo-pnj-esocriminales","fvtt-module-investigator-es.equipo-pj-esocriminales"],"folderIcon":null,"expanded":false,"visible":true,"compendiums":[{"code":"fvtt-module-investigator-es.habilidades-pj-esocriminales","folder":"cfolder_RG8A6VepM5"},{"code":"fvtt-module-investigator-es.armas-esocriminales","folder":"cfolder_RG8A6VepM5"},{"code":"fvtt-module-investigator-es.habilidades-pnj-esocriminales","folder":"cfolder_RG8A6VepM5"},{"code":"fvtt-module-investigator-es.equipo-pnj-esocriminales","folder":"cfolder_RG8A6VepM5"},{"code":"fvtt-module-investigator-es.equipo-pj-esocriminales","folder":"cfolder_RG8A6VepM5"}],"depth":1},"cfolder_NLaHv6HSf1":{"titleText":"Cuchillas Viperinas","colorText":"#983464","fontColorText":"#FFFFFF","type":"CompendiumEntry","_id":"cfolder_NLaHv6HSf1","entity":"CompendiumFolder","sorting":"a","parent":null,"pathToFolder":[],"compendiumList":["fvtt-module-investigator-es.habilidades-pj-cuchillas","fvtt-module-investigator-es.habilidades-pnj-cuchillas-viperinas","fvtt-module-investigator-es.armas-cuchillas-viperinas","fvtt-module-investigator-es.equipo-pj-cuchillas-viperinas","fvtt-module-investigator-es.equipo-pnj-cuchillas-viperinas","fvtt-module-investigator-es.habilidades-pnj-cuchillas","fvtt-module-investigator-es.armas-cuchillas","fvtt-module-investigator-es.equipo-pj-cuchillas","fvtt-module-investigator-es.equipo-pnj-cuchillas"],"folderIcon":null,"expanded":false,"visible":true,"compendiums":[{"code":"fvtt-module-investigator-es.habilidades-pj-cuchillas","folder":"cfolder_NLaHv6HSf1"},{"code":"fvtt-module-investigator-es.habilidades-pnj-cuchillas","folder":"cfolder_NLaHv6HSf1"},{"code":"fvtt-module-investigator-es.armas-cuchillas","folder":"cfolder_NLaHv6HSf1"},{"code":"fvtt-module-investigator-es.equipo-pj-cuchillas","folder":"cfolder_NLaHv6HSf1"},{"code":"fvtt-module-investigator-es.equipo-pnj-cuchillas","folder":"cfolder_NLaHv6HSf1"}],"depth":1}}`);
-
-    setTimeout(() => {
-      game.settings
-        .set("compendium-folders", "cfolders", compendiumFolderJson)
-        .then(function () {
-          ui.notifications.info(
-            "Actualizadas carpetas de compendio, refresque la pestaña"
-          );
-        });
-      game.settings.set(
-        "fvtt-module-investigator-es",
-        "restablecer-compendios",
-        false
-      );
-    }, 2000);
-  }
-
   function initsendero() {
     setTimeout(() => {
 
@@ -194,7 +149,6 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
     }, 2000);
   }
-
   function initesocriminales() {
     setTimeout(() => {
       console.log(game.settings.get("investigator", "systemPreset"));
@@ -266,7 +220,6 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
     }, 2000);
   }
-
   function initguardias() {
     setTimeout(() => {
       console.log(game.settings.get("investigator", "systemPreset"));
@@ -337,7 +290,6 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
     }, 2000);
   }
-
   function initcuchillas() {
     setTimeout(() => {
       console.log(game.settings.get("investigator", "systemPreset"));
