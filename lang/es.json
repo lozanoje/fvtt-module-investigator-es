@@ -174,5 +174,10 @@
   "investigator.RefreshedAllOfActorNamesHoursHoursRefreshAbilities": "Reinicializadas todas las habilidades {Hours}h de {ActorName}",
   "investigator.SpecialitiesMode": "Modo especialidades",
   "investigator.OnePerRank": "Una por rango",
-  "investigator.234PerRank": "+2/+3/+4 por rango"
+  "investigator.234PerRank": "+2/+3/+4 por rango",
+  "investigator.ImportExport": "Importar/Exportar",
+  "investigator.ExportSettingsToFile": "Exportar ajustes a un fichero",
+  "investigator.ImportSettingsFromFile": "Importar ajustes a un fichero",
+  "investigator.Import": "Importar",
+  "investigator.Export": "Exportar"
 }
