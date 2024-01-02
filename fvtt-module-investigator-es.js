@@ -6,10 +6,10 @@ Hooks.once('ready', () => {
       "/modules/fvtt-module-investigator-es/images/fvtt-sendero-es.webp";
   } else if (
     game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-    "esocriminales"
+    "esoscriminales"
   ) {
     document.getElementById("logo").src =
-      "/modules/fvtt-module-investigator-es/images/fvtt-esocriminales-es.webp";
+      "/modules/fvtt-module-investigator-es/images/fvtt-esoscriminales-es.webp";
   } else if (
     game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
     "guardias"
@@ -22,6 +22,12 @@ Hooks.once('ready', () => {
   ) {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-cuchillas-es.webp";
+  } else if (
+    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
+    "miedo"
+  ) {
+    document.getElementById("logo").src =
+      "/modules/fvtt-module-investigator-es/images/fvtt-miedo-es.webp";
   }
 });
 
@@ -36,10 +42,11 @@ Hooks.once("renderCompendiumDirectory", () => {
     choices: {
       // If choices are defined, the resulting setting will be a select menu
       Ninguno: "Ninguno",
-      sendero: "El sendero de Cthulhu",
-      esocriminales: "Esocriminales",
-      guardias: "Guardias de la noche",
       cuchillas: "Cuchillas Viperinas",
+      esoscriminales: "Esoscriminales",
+      guardias: "Guardias de la noche",
+      miedo: "Miedo ensimismado",
+      sendero: "El sendero de Cthulhu",
     },
   });
 
@@ -65,9 +72,9 @@ Hooks.once("renderCompendiumDirectory", () => {
       initsendero();
     } else if (
       game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-      "esocriminales"
+      "esoscriminales"
     ) {
-      initesocriminales();
+      initesoscriminales();
     } else if (
       game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
       "guardias"
@@ -78,6 +85,11 @@ Hooks.once("renderCompendiumDirectory", () => {
       "cuchillas"
     ) {
       initcuchillas();
+    } else if (
+      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
+      "miedo"
+    ) {
+      initmiedo();
     } else {
       game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
     }
@@ -92,8 +104,9 @@ Hooks.once("renderCompendiumDirectory", () => {
 
       console.log(game.settings.get("investigator", "occupationLabel"));
       game.settings.set("investigator", "occupationLabel", "Profesión");
-      console.log(game.settings.get("investigator", "shortNotes"));
-      game.settings.set("investigator", "shortNotes", ["Motivaciones"]);
+      			console.log(game.settings.get("investigator", "personalDetails"));
+      game.settings.set("investigator", "personalDetails", [
+    {"name": "Motivaciones","type": "text"}]);
       console.log(game.settings.get("investigator", "longNotes"));
       game.settings.set("investigator", "longNotes", [
         "Contactos y notas",
@@ -149,24 +162,17 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
     }, 2000);
   }
-  function initesocriminales() {
+  function initesoscriminales() {
     setTimeout(() => {
       console.log(game.settings.get("investigator", "systemPreset"));
       game.settings.set("investigator", "systemPreset", "customSystem");
       console.log(game.settings.get("investigator", "defaultThemeName"));
-      game.settings.set(
-        "investigator",
-        "defaultThemeName",
-        "highContrastTheme"
-      );
+      game.settings.set("investigator", "defaultThemeName", "highContrastTheme");
       console.log(game.settings.get("investigator", "occupationLabel"));
-      game.settings.set(
-        "investigator",
-        "occupationLabel",
-        "Profesión ordinaria"
-      );
-      console.log(game.settings.get("investigator", "shortNotes"));
-      game.settings.set("investigator", "shortNotes", ["Tapadera actual"]);
+      game.settings.set("investigator", "occupationLabel", "Profesión ordinaria");
+      console.log(game.settings.get("investigator", "personalDetails"));
+      game.settings.set("investigator", "personalDetails", [
+    {"name": "Tapadera actual","type": "text"}]);
       console.log(game.settings.get("investigator", "longNotes"));
       game.settings.set("investigator", "longNotes", [
         "Contactos",
@@ -197,13 +203,13 @@ Hooks.once("renderCompendiumDirectory", () => {
       ]);
       console.log(game.settings.get("investigator", "newPCPacks"));
       game.settings.set("investigator", "newPCPacks", [
-        "fvtt-module-investigator-es.habilidades-pj-esocriminales",
-        "fvtt-module-investigator-es.equipo-pj-esocriminales",
+        "fvtt-module-investigator-es.habilidades-pj-esoscriminales",
+        "fvtt-module-investigator-es.equipo-pj-esoscriminales",
       ]);
       console.log(game.settings.get("investigator", "newNPCPacks"));
       game.settings.set("investigator", "newNPCPacks", [
-        "fvtt-module-investigator-es.habilidades-pnj-esocriminales",
-        "fvtt-module-investigator-es.equipo-pnj-esocriminales",
+        "fvtt-module-investigator-es.habilidades-pnj-esoscriminales",
+        "fvtt-module-investigator-es.equipo-pnj-esoscriminales",
       ]);
       console.log(game.settings.get("investigator", "npcStats"));
       game.settings.set("investigator", "npcStats", {
@@ -228,11 +234,10 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("investigator", "defaultThemeName", "niceTheme");
       console.log(game.settings.get("investigator", "occupationLabel"));
       game.settings.set("investigator", "occupationLabel", "Trasfondo");
-      console.log(game.settings.get("investigator", "shortNotes"));
-      game.settings.set("investigator", "shortNotes", [
-        "Motivación",
-        "Antiguo patrón",
-      ]);
+      console.log(game.settings.get("investigator", "personalDetails"));
+      game.settings.set("investigator", "personalDetails", [
+    {"name": "Motivación","type": "text"},
+    {"name": "Antiguo patrón","type": "text"}]);
       console.log(game.settings.get("investigator", "longNotes"));
       game.settings.set("investigator", "longNotes", [
         "Contactos de la red",
@@ -298,11 +303,10 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("investigator", "defaultThemeName", "antiquarianTheme");
       console.log(game.settings.get("investigator", "occupationLabel"));
       game.settings.set("investigator", "occupationLabel", "Profesión");
-      console.log(game.settings.get("investigator", "shortNotes"));
-      game.settings.set("investigator", "shortNotes", [
-        "Motivaciones",
-        "Esferas de hechicería",
-      ]);
+      console.log(game.settings.get("investigator", "personalDetails"));
+      game.settings.set("investigator", "personalDetails", [
+    {"name": "Motivaciones","type": "text"},
+    {"name": "Esferas de hechicería","type": "item"}]);
       console.log(game.settings.get("investigator", "longNotes"));
       game.settings.set("investigator", "longNotes", [
         "Amigos y enemigos",
@@ -374,5 +378,68 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
     }, 2000);
   }
-
+	
+function initmiedo() {
+    setTimeout(() => {
+      console.log(game.settings.get("investigator", "systemPreset"));
+      game.settings.set("investigator", "systemPreset", "customSystem");
+      console.log(game.settings.get("investigator", "defaultThemeName"));
+      game.settings.set("investigator", "defaultThemeName", "fearTheme");
+      console.log(game.settings.get("investigator", "occupationLabel"));
+      game.settings.set("investigator", "occupationLabel", "Concepto");
+			console.log(game.settings.get("investigator", "personalDetails"));
+      game.settings.set("investigator", "personalDetails", [
+    {"name": "Pilares de estabilidad","type": "text"}]);
+      console.log(game.settings.get("investigator", "longNotes"));
+      game.settings.set("investigator", "longNotes", [
+        "Trasfondo",
+      ]);
+      console.log(game.settings.get("investigator", "genericOccupation"));
+      game.settings.set("investigator", "genericOccupation", "Concepto");
+      console.log(
+        game.settings.get("investigator", "investigativeAbilityCategories")
+      );
+      game.settings.set("investigator", "investigativeAbilityCategories", [
+        "Académicas",
+        "Interpersonales",
+        "Técnicas",
+				"Poderes psíquicos",
+      ]);
+      console.log(
+        game.settings.get("investigator", "generalAbilityCategories")
+      );
+      game.settings.set("investigator", "generalAbilityCategories", [
+        "Generales",
+      ]);
+      console.log(game.settings.get("investigator", "combatAbilities"));
+      game.settings.set("investigator", "combatAbilities", [
+        "Escaramuza",
+        "Disparar",
+        "Atletismo",
+      ]);
+      console.log(game.settings.get("investigator", "newPCPacks"));
+      game.settings.set("investigator", "newPCPacks", [
+        "fvtt-module-investigator-es.habilidades-pj-miedo",
+        "fvtt-module-investigator-es.equipo-pj-miedo",
+      ]);
+      console.log(game.settings.get("investigator", "newNPCPacks"));
+      game.settings.set("investigator", "newNPCPacks", [
+        "fvtt-module-investigator-es.habilidades-pnj-miedo",
+        "fvtt-module-investigator-es.equipo-pnj-miedo",
+      ]);
+      console.log(game.settings.get("investigator", "npcStats"));
+      game.settings.set("investigator", "npcStats", {
+        hitThreshold: { name: "Umbral de golpe", default: 3 },
+        armor: { name: "Protección", default: 0 },
+        alertness: { name: "Modificador de alerta", default: 0 },
+        stealth: { name: "Modificador de sigilo", default: 0 },
+        stabilityLoss: { name: "Pérdida de estabilidad", default: 0 },
+      });
+      console.log(game.settings.get("investigator", "pcStats"));
+      game.settings.set("investigator", "pcStats", {
+        hitThreshold: { name: "Umbral de golpe", default: 3 },
+      });
+      game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
+    }, 2000);
+  }
 });
