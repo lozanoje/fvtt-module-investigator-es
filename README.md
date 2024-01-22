@@ -52,7 +52,7 @@ Actualmente el sistema soporta los siguientes sistemas:
 
 ![](https://github.com/lozanoje/fvtt-module-investigator-es/blob/assets/Compendios.jpg)
 
-Para comprobar que un sistema está activo, notará que el logo de Foundry cambiará por los correspondientes logos siguientes:
+Para comprobar que un sistema está activo, notará que el logo de Foundry cambia por los correspondientes logos siguientes, si ve el logo correcto, es que su sistema está correctamente configurado.
 
 ![](https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-cuchillas-es.webp)
 ![](https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-esoscriminales-es.webp)
