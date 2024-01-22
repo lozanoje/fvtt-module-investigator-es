@@ -13,11 +13,13 @@ El módulo tiene dos requisitos que se instalarán automáticamente. En caso de 
 La traducción al español de Foundry VTT:
 
 **Translation: Spanish [Core]**: https://foundryvtt.com/packages/foundryvtt-es
+
 __Manifiesto__: https://raw.githubusercontent.com/lozanoje/foundryvtt-es/master/module.json
 
 Y el sistema de juego GUMSHOE:
 
 **INVESTIGATOR System (GUMSHOE SRD-compatible)**: https://foundryvtt.com/packages/investigator
+
 __Manifiesto__: https://github.com/n3dst4/gumshoe-fvtt/releases/latest/download/system.json
 
 ## Instalación
@@ -25,6 +27,7 @@ __Manifiesto__: https://github.com/n3dst4/gumshoe-fvtt/releases/latest/download/
 O bien desde el gestor de paquetes de Foundry
 
 **Translation: Spanish [GUMSHOE]**: https://foundryvtt.com/packages/fvtt-module-investigator-es
+
 __Manifiesto__: https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/module.json
 
 
@@ -51,8 +54,8 @@ Actualmente el sistema soporta los siguientes sistemas:
 
 Para comprobar que un sistema está activo, notará que el logo de Foundry cambiará por los correspondientes logos siguientes:
 
-https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-cuchillas-es.webp
-https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-esoscriminales-es.webp
-https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-guardias-es.webp
-https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-miedo-es.webp
-https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-sendero-es.webp
+![](https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-cuchillas-es.webp)
+![](https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-esoscriminales-es.webp)
+![](https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-guardias-es.webp)
+![](https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-miedo-es.webp)
+![](https://raw.githubusercontent.com/lozanoje/fvtt-module-investigator-es/main/images/fvtt-sendero-es.webp)
