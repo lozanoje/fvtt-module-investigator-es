@@ -431,9 +431,9 @@ function initmiedo() {
       game.settings.set("investigator", "npcStats", {
         hitThreshold: { name: "Umbral de golpe", default: 3 },
         armor: { name: "Protección", default: 0 },
-        alertness: { name: "Modificador de alerta", default: 0 },
+        alertness: { name: "Modificador de atención", default: 0 },
         stealth: { name: "Modificador de sigilo", default: 0 },
-        stabilityLoss: { name: "Pérdida de estabilidad", default: 0 },
+        damageMod: { name: "Modificador al daño", default: 0 },
       });
       console.log(game.settings.get("investigator", "pcStats"));
       game.settings.set("investigator", "pcStats", {
