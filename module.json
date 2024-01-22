@@ -2,7 +2,7 @@
   "title": "Translation: Spanish [Gumshoe]",
   "id": "fvtt-module-investigator-es",
   "description": "Compendios para el sistema INVESTIGATOR",
-  "version": "7.60.2",
+  "version": "7.60.3",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -29,7 +29,7 @@
           "color": "#d6902e",
           "packs": ["armas-esoscriminales", "habilidades-pj-esoscriminales", "equipo-pj-esoscriminales", "habilidades-pnj-esoscriminales", "equipo-pnj-esoscriminales"]
         }, {
-          "name": "Guardias de la noche",
+          "name": "Guardias nocturnos",
           "sorting": "a",
           "color": "#750001",
           "packs": ["armas-guardias", "habilidades-pj-guardias", "equipo-pj-guardias", "habilidades-pnj-guardias", "equipo-pnj-guardias"]
@@ -129,7 +129,7 @@
       "flags": {}
     }, {
       "name": "habilidades-pj-guardias",
-      "label": "Habilidades PJ Guardias de la noche",
+      "label": "Habilidades PJ Guardias nocturnos",
       "path": "packs/habilidades-pj-guardias.db",
       "private": false,
       "type": "Item",
@@ -137,7 +137,7 @@
       "flags": {}
     }, {
       "name": "armas-guardias",
-      "label": "Armas Guardias de la noche",
+      "label": "Armas Guardias nocturnos",
       "path": "packs/armas-guardias.db",
       "private": false,
       "type": "Item",
@@ -145,7 +145,7 @@
       "flags": {}
     }, {
       "name": "habilidades-pnj-guardias",
-      "label": "Habilidades PNJ Guardias de la noche",
+      "label": "Habilidades PNJ Guardias nocturnos",
       "path": "packs/habilidades-pnj-guardias.db",
       "private": false,
       "type": "Item",
@@ -153,7 +153,7 @@
       "flags": {}
     }, {
       "name": "equipo-pnj-guardias",
-      "label": "Equipo PNJ Guardias de la noche",
+      "label": "Equipo PNJ Guardias nocturnos",
       "path": "packs/equipo-pnj-guardias.db",
       "private": false,
       "type": "Item",
@@ -161,7 +161,7 @@
       "flags": {}
     }, {
       "name": "equipo-pj-guardias",
-      "label": "Equipo PJ Guardias de la noche",
+      "label": "Equipo PJ Guardias nocturnos",
       "path": "packs/equipo-pj-guardias.db",
       "private": false,
       "type": "Item",

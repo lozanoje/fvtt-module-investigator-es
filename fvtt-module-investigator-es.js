@@ -44,7 +44,7 @@ Hooks.once("renderCompendiumDirectory", () => {
       Ninguno: "Ninguno",
       cuchillas: "Cuchillas Viperinas",
       esoscriminales: "Esoscriminales",
-      guardias: "Guardias de la noche",
+      guardias: "Guardias nocturnos",
       miedo: "Miedo ensimismado",
       sendero: "El sendero de Cthulhu",
     },
