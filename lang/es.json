@@ -176,5 +176,6 @@
   "investigator.ExportSettingsToFile": "Exportar ajustes a un fichero",
   "investigator.ImportSettingsFromFile": "Importar ajustes a un fichero",
   "investigator.Import": "Importar",
-  "investigator.Export": "Exportar"
+  "investigator.Export": "Exportar",
+  "investigator.GMNotes": "Notas del GM"
 }
