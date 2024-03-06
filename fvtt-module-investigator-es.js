@@ -106,7 +106,7 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("investigator", "occupationLabel", "Profesión");
       			console.log(game.settings.get("investigator", "personalDetails"));
       game.settings.set("investigator", "personalDetails", [
-    {"name": "Motivaciones","type": "text"}]);
+    {"name": "Motivaciones","type": "personalDetail"}]);
       console.log(game.settings.get("investigator", "longNotes"));
       game.settings.set("investigator", "longNotes", [
         "Contactos y notas",
@@ -236,7 +236,7 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("investigator", "occupationLabel", "Trasfondo");
       console.log(game.settings.get("investigator", "personalDetails"));
       game.settings.set("investigator", "personalDetails", [
-    {"name": "Motivación","type": "text"},
+    {"name": "Motivación","type": "personalDetail"},
     {"name": "Antiguo patrón","type": "text"}]);
       console.log(game.settings.get("investigator", "longNotes"));
       game.settings.set("investigator", "longNotes", [
@@ -305,7 +305,7 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("investigator", "occupationLabel", "Profesión");
       console.log(game.settings.get("investigator", "personalDetails"));
       game.settings.set("investigator", "personalDetails", [
-    {"name": "Motivaciones","type": "text"},
+    {"name": "Motivaciones","type": "personalDetail"},
     {"name": "Esferas de hechicería","type": "item"}]);
       console.log(game.settings.get("investigator", "longNotes"));
       game.settings.set("investigator", "longNotes", [
