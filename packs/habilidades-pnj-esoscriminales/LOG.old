@@ -1,12 +1,11 @@
-2024/01/22-21:15:02.996025 ffff849af040 Delete type=3 #1
-2024/01/22-21:16:16.646165 ffff6f6ee040 Level-0 table #159: started
-2024/01/22-21:16:16.646186 ffff6f6ee040 Level-0 table #159: 0 bytes OK
-2024/01/22-21:16:16.648482 ffff6f6ee040 Delete type=0 #157
-2024/01/22-21:16:16.648575 ffff6f6ee040 Manual compaction at level-0 from '!items!DhyziMHevS1GBCnU' @ 72057594037927935 : 1 .. '!items!ylFxseUhd46VGUEM' @ 0 : 0; will stop at '!items!ylFxseUhd46VGUEM' @ 6 : 1
-2024/01/22-21:16:16.648577 ffff6f6ee040 Compacting 2@0 + 0@1 files
-2024/01/22-21:16:16.651249 ffff6f6ee040 Generated table #160@0: 6 keys, 2263 bytes
-2024/01/22-21:16:16.651261 ffff6f6ee040 Compacted 2@0 + 0@1 files => 2263 bytes
-2024/01/22-21:16:16.653009 ffff6f6ee040 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/01/22-21:16:16.653067 ffff6f6ee040 Delete type=2 #5
-2024/01/22-21:16:16.653111 ffff6f6ee040 Delete type=2 #150
-2024/01/22-21:16:16.659605 ffff6f6ee040 Manual compaction at level-0 from '!items!ylFxseUhd46VGUEM' @ 6 : 1 .. '!items!ylFxseUhd46VGUEM' @ 0 : 0; will stop at (end)
+2024/05/01-21:26:56.902175 e70b097af040 Delete type=3 #1
+2024/05/01-21:31:09.165910 e70b08f9f040 Level-0 table #168: started
+2024/05/01-21:31:09.165939 e70b08f9f040 Level-0 table #168: 0 bytes OK
+2024/05/01-21:31:09.168564 e70b08f9f040 Delete type=0 #166
+2024/05/01-21:31:09.174546 e70b08f9f040 Manual compaction at level-0 from '!items!DhyziMHevS1GBCnU' @ 72057594037927935 : 1 .. '!items!ylFxseUhd46VGUEM' @ 0 : 0; will stop at '!items!ylFxseUhd46VGUEM' @ 6 : 1
+2024/05/01-21:31:09.174556 e70b08f9f040 Compacting 1@0 + 0@1 files
+2024/05/01-21:31:09.177818 e70b08f9f040 Generated table #169@0: 6 keys, 2263 bytes
+2024/05/01-21:31:09.177843 e70b08f9f040 Compacted 1@0 + 0@1 files => 2263 bytes
+2024/05/01-21:31:09.180298 e70b08f9f040 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/01-21:31:09.180394 e70b08f9f040 Delete type=2 #160
+2024/05/01-21:31:09.186243 e70b08f9f040 Manual compaction at level-0 from '!items!ylFxseUhd46VGUEM' @ 6 : 1 .. '!items!ylFxseUhd46VGUEM' @ 0 : 0; will stop at (end)

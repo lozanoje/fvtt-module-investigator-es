@@ -1,12 +1,11 @@
-2024/01/22-21:15:03.106892 ffff851bf040 Delete type=3 #1
-2024/01/22-21:16:16.711027 ffff6f6ee040 Level-0 table #79: started
-2024/01/22-21:16:16.711048 ffff6f6ee040 Level-0 table #79: 0 bytes OK
-2024/01/22-21:16:16.713289 ffff6f6ee040 Delete type=0 #77
-2024/01/22-21:16:16.717845 ffff6f6ee040 Manual compaction at level-0 from '!items!0l0MY6xL5TjY7yJl' @ 72057594037927935 : 1 .. '!items!bsIjTunz6oVyXWht' @ 0 : 0; will stop at '!items!bsIjTunz6oVyXWht' @ 13 : 1
-2024/01/22-21:16:16.717852 ffff6f6ee040 Compacting 2@0 + 0@1 files
-2024/01/22-21:16:16.720377 ffff6f6ee040 Generated table #80@0: 6 keys, 1246 bytes
-2024/01/22-21:16:16.720393 ffff6f6ee040 Compacted 2@0 + 0@1 files => 1246 bytes
-2024/01/22-21:16:16.722166 ffff6f6ee040 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/01/22-21:16:16.722232 ffff6f6ee040 Delete type=2 #70
-2024/01/22-21:16:16.722279 ffff6f6ee040 Delete type=2 #13
-2024/01/22-21:16:16.732172 ffff6f6ee040 Manual compaction at level-0 from '!items!bsIjTunz6oVyXWht' @ 13 : 1 .. '!items!bsIjTunz6oVyXWht' @ 0 : 0; will stop at (end)
+2024/05/01-21:26:57.056059 e70b09fbf040 Delete type=3 #1
+2024/05/01-21:31:09.249300 e70b08f9f040 Level-0 table #88: started
+2024/05/01-21:31:09.249326 e70b08f9f040 Level-0 table #88: 0 bytes OK
+2024/05/01-21:31:09.252126 e70b08f9f040 Delete type=0 #86
+2024/05/01-21:31:09.257639 e70b08f9f040 Manual compaction at level-0 from '!items!0l0MY6xL5TjY7yJl' @ 72057594037927935 : 1 .. '!items!bsIjTunz6oVyXWht' @ 0 : 0; will stop at '!items!bsIjTunz6oVyXWht' @ 13 : 1
+2024/05/01-21:31:09.257652 e70b08f9f040 Compacting 1@0 + 0@1 files
+2024/05/01-21:31:09.260452 e70b08f9f040 Generated table #89@0: 6 keys, 1246 bytes
+2024/05/01-21:31:09.260481 e70b08f9f040 Compacted 1@0 + 0@1 files => 1246 bytes
+2024/05/01-21:31:09.262780 e70b08f9f040 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/01-21:31:09.262883 e70b08f9f040 Delete type=2 #80
+2024/05/01-21:31:09.276421 e70b08f9f040 Manual compaction at level-0 from '!items!bsIjTunz6oVyXWht' @ 13 : 1 .. '!items!bsIjTunz6oVyXWht' @ 0 : 0; will stop at (end)

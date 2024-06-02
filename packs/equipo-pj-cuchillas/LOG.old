@@ -1,12 +1,11 @@
-2024/01/22-21:15:02.948320 ffff849af040 Delete type=3 #1
-2024/01/22-21:16:16.619336 ffff6f6ee040 Level-0 table #159: started
-2024/01/22-21:16:16.619355 ffff6f6ee040 Level-0 table #159: 0 bytes OK
-2024/01/22-21:16:16.621180 ffff6f6ee040 Delete type=0 #157
-2024/01/22-21:16:16.621299 ffff6f6ee040 Manual compaction at level-0 from '!items!KdjbV4Odm2LuWbpu' @ 72057594037927935 : 1 .. '!items!KdjbV4Odm2LuWbpu' @ 0 : 0; will stop at '!items!KdjbV4Odm2LuWbpu' @ 1 : 1
-2024/01/22-21:16:16.621305 ffff6f6ee040 Compacting 2@0 + 0@1 files
-2024/01/22-21:16:16.623773 ffff6f6ee040 Generated table #160@0: 1 keys, 786 bytes
-2024/01/22-21:16:16.623782 ffff6f6ee040 Compacted 2@0 + 0@1 files => 786 bytes
-2024/01/22-21:16:16.625612 ffff6f6ee040 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/01/22-21:16:16.625659 ffff6f6ee040 Delete type=2 #5
-2024/01/22-21:16:16.625702 ffff6f6ee040 Delete type=2 #150
-2024/01/22-21:16:16.632567 ffff6f6ee040 Manual compaction at level-0 from '!items!KdjbV4Odm2LuWbpu' @ 1 : 1 .. '!items!KdjbV4Odm2LuWbpu' @ 0 : 0; will stop at (end)
+2024/05/01-21:26:56.830203 e70b097af040 Delete type=3 #1
+2024/05/01-21:31:09.127878 e70b08f9f040 Level-0 table #168: started
+2024/05/01-21:31:09.127969 e70b08f9f040 Level-0 table #168: 0 bytes OK
+2024/05/01-21:31:09.130789 e70b08f9f040 Delete type=0 #166
+2024/05/01-21:31:09.136656 e70b08f9f040 Manual compaction at level-0 from '!items!KdjbV4Odm2LuWbpu' @ 72057594037927935 : 1 .. '!items!KdjbV4Odm2LuWbpu' @ 0 : 0; will stop at '!items!KdjbV4Odm2LuWbpu' @ 1 : 1
+2024/05/01-21:31:09.136667 e70b08f9f040 Compacting 1@0 + 0@1 files
+2024/05/01-21:31:09.140103 e70b08f9f040 Generated table #169@0: 1 keys, 786 bytes
+2024/05/01-21:31:09.140127 e70b08f9f040 Compacted 1@0 + 0@1 files => 786 bytes
+2024/05/01-21:31:09.142890 e70b08f9f040 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/01-21:31:09.142993 e70b08f9f040 Delete type=2 #160
+2024/05/01-21:31:09.148969 e70b08f9f040 Manual compaction at level-0 from '!items!KdjbV4Odm2LuWbpu' @ 1 : 1 .. '!items!KdjbV4Odm2LuWbpu' @ 0 : 0; will stop at (end)

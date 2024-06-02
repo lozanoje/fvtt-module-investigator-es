@@ -1,12 +1,11 @@
-2024/01/22-21:15:03.094462 ffff849af040 Delete type=3 #1
-2024/01/22-21:16:16.703454 ffff6f6ee040 Level-0 table #79: started
-2024/01/22-21:16:16.703478 ffff6f6ee040 Level-0 table #79: 0 bytes OK
-2024/01/22-21:16:16.705736 ffff6f6ee040 Delete type=0 #77
-2024/01/22-21:16:16.705834 ffff6f6ee040 Manual compaction at level-0 from '!items!5pHS9lMCObz7npD9' @ 72057594037927935 : 1 .. '!items!znneNhDTuAtfJAaA' @ 0 : 0; will stop at '!items!znneNhDTuAtfJAaA' @ 101 : 1
-2024/01/22-21:16:16.705837 ffff6f6ee040 Compacting 2@0 + 0@1 files
-2024/01/22-21:16:16.709012 ffff6f6ee040 Generated table #80@0: 48 keys, 14707 bytes
-2024/01/22-21:16:16.709029 ffff6f6ee040 Compacted 2@0 + 0@1 files => 14707 bytes
-2024/01/22-21:16:16.710856 ffff6f6ee040 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/01/22-21:16:16.710919 ffff6f6ee040 Delete type=2 #70
-2024/01/22-21:16:16.710974 ffff6f6ee040 Delete type=2 #13
-2024/01/22-21:16:16.717829 ffff6f6ee040 Manual compaction at level-0 from '!items!znneNhDTuAtfJAaA' @ 101 : 1 .. '!items!znneNhDTuAtfJAaA' @ 0 : 0; will stop at (end)
+2024/05/01-21:26:57.038464 e70b0a7cf040 Delete type=3 #1
+2024/05/01-21:31:09.235426 e70b08f9f040 Level-0 table #88: started
+2024/05/01-21:31:09.235454 e70b08f9f040 Level-0 table #88: 0 bytes OK
+2024/05/01-21:31:09.237968 e70b08f9f040 Delete type=0 #86
+2024/05/01-21:31:09.243138 e70b08f9f040 Manual compaction at level-0 from '!items!5pHS9lMCObz7npD9' @ 72057594037927935 : 1 .. '!items!znneNhDTuAtfJAaA' @ 0 : 0; will stop at '!items!znneNhDTuAtfJAaA' @ 101 : 1
+2024/05/01-21:31:09.243150 e70b08f9f040 Compacting 1@0 + 0@1 files
+2024/05/01-21:31:09.246761 e70b08f9f040 Generated table #89@0: 48 keys, 14707 bytes
+2024/05/01-21:31:09.246787 e70b08f9f040 Compacted 1@0 + 0@1 files => 14707 bytes
+2024/05/01-21:31:09.249108 e70b08f9f040 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/01-21:31:09.249213 e70b08f9f040 Delete type=2 #80
+2024/05/01-21:31:09.254843 e70b08f9f040 Manual compaction at level-0 from '!items!znneNhDTuAtfJAaA' @ 101 : 1 .. '!items!znneNhDTuAtfJAaA' @ 0 : 0; will stop at (end)
