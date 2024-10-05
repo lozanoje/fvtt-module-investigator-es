@@ -1,4 +1,8 @@
-# Translation: Spanish [Gumshoe]
+# Translation: Spanish [Gumshoe] para FoundryVTT
+
+Traducción del sistema GUMSHOE (github.com/n3dst4/gumshoe-fvtt) al español -  GUMSHOE spanish translation
+
+## Description - Descripción  
 
 Traducción del sistema GUMSHOE (Official GUMSHOE system for Foundry VTT), junto con una serie de compendios genéricos para el sistema para jugar diferentes entornos fácilmente.
 

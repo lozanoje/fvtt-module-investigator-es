@@ -1,11 +1,7 @@
-2024/05/01-21:26:56.795405 e70b0a7cf040 Delete type=3 #1
-2024/05/01-21:31:09.109779 e70b08f9f040 Level-0 table #168: started
-2024/05/01-21:31:09.109806 e70b08f9f040 Level-0 table #168: 0 bytes OK
-2024/05/01-21:31:09.112588 e70b08f9f040 Delete type=0 #166
-2024/05/01-21:31:09.122225 e70b08f9f040 Manual compaction at level-0 from '!items!A7ZpfQaSEfMFmfIJ' @ 72057594037927935 : 1 .. '!items!t72262hF3nkBSCTV' @ 0 : 0; will stop at '!items!t72262hF3nkBSCTV' @ 6 : 1
-2024/05/01-21:31:09.122238 e70b08f9f040 Compacting 1@0 + 0@1 files
-2024/05/01-21:31:09.125307 e70b08f9f040 Generated table #169@0: 6 keys, 2316 bytes
-2024/05/01-21:31:09.125333 e70b08f9f040 Compacted 1@0 + 0@1 files => 2316 bytes
-2024/05/01-21:31:09.127703 e70b08f9f040 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/05/01-21:31:09.127805 e70b08f9f040 Delete type=2 #160
-2024/05/01-21:31:09.136631 e70b08f9f040 Manual compaction at level-0 from '!items!t72262hF3nkBSCTV' @ 6 : 1 .. '!items!t72262hF3nkBSCTV' @ 0 : 0; will stop at (end)
+2024/09/28-21:16:19.993859 e2175bfff040 Recovering log #261
+2024/09/28-21:16:20.000482 e2175bfff040 Delete type=0 #261
+2024/09/28-21:16:20.000526 e2175bfff040 Delete type=3 #259
+2024/09/28-21:17:18.327809 e2175b7ef040 Level-0 table #266: started
+2024/09/28-21:17:18.327848 e2175b7ef040 Level-0 table #266: 0 bytes OK
+2024/09/28-21:17:18.330374 e2175b7ef040 Delete type=0 #264
+2024/09/28-21:17:18.333159 e2175b7ef040 Manual compaction at level-0 from '!items!A7ZpfQaSEfMFmfIJ' @ 72057594037927935 : 1 .. '!items!t72262hF3nkBSCTV' @ 0 : 0; will stop at (end)

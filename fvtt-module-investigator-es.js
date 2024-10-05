@@ -42,11 +42,11 @@ Hooks.once("renderCompendiumDirectory", () => {
     choices: {
       // If choices are defined, the resulting setting will be a select menu
       Ninguno: "Ninguno",
-      cuchillas: "Cuchillas Viperinas",
-      esoscriminales: "Esoscriminales",
-      guardias: "Guardias nocturnos",
-      miedo: "Miedo ensimismado",
-      sendero: "El sendero de Cthulhu",
+      cuchillas: "Swords of the Serpentine",
+      esoscriminales: "Esoterroristas",
+      guardias: "Agentes de la noche",
+      miedo: "Fear Itself",
+      sendero: "El rastro de Cthulhu",
     },
   });
 
