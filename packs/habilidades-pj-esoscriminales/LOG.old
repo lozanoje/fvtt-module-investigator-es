@@ -1,7 +1,7 @@
-2024/10/07-22:16:40.297621 e21771edf040 Recovering log #282
-2024/10/07-22:16:40.304571 e21771edf040 Delete type=3 #280
-2024/10/07-22:16:40.304606 e21771edf040 Delete type=0 #282
-2024/10/07-22:19:59.414675 e2175b7ef040 Level-0 table #287: started
-2024/10/07-22:19:59.414706 e2175b7ef040 Level-0 table #287: 0 bytes OK
-2024/10/07-22:19:59.417638 e2175b7ef040 Delete type=0 #285
-2024/10/07-22:19:59.426018 e2175b7ef040 Manual compaction at level-0 from '!items!17wSZXPcdwfiwbQa' @ 72057594037927935 : 1 .. '!items!ylPTvRgeuxd1zTCv' @ 0 : 0; will stop at (end)
+2024/10/15-16:58:54.522824 e4550b40f040 Recovering log #319
+2024/10/15-16:58:54.529681 e4550b40f040 Delete type=3 #317
+2024/10/15-16:58:54.529719 e4550b40f040 Delete type=0 #319
+2024/10/15-16:59:47.023979 e4550a60f040 Level-0 table #325: started
+2024/10/15-16:59:47.023994 e4550a60f040 Level-0 table #325: 0 bytes OK
+2024/10/15-16:59:47.026847 e4550a60f040 Delete type=0 #323
+2024/10/15-16:59:47.034183 e4550a60f040 Manual compaction at level-0 from '!items!17wSZXPcdwfiwbQa' @ 72057594037927935 : 1 .. '!items!ylPTvRgeuxd1zTCv' @ 0 : 0; will stop at (end)
