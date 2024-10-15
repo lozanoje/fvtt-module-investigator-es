@@ -4,11 +4,11 @@ Traducción del sistema GUMSHOE (github.com/n3dst4/gumshoe-fvtt) al español -  
 
 ## Description - Descripción  
 
-Traducción del sistema GUMSHOE (Official GUMSHOE system for Foundry VTT), junto con una serie de compendios genéricos para el sistema para jugar diferentes entornos fácilmente.
+Traducción del sistema GUMSHOE (Official GUMSHOE system for Foundry VTT), junto con compendios para jugar diferentes entornos fácilmente.
 
 ## Aviso
 
-Compatible únicamente con la v11
+Compatible únicamente con la v12
 
 ## Requerimientos
 
@@ -43,6 +43,7 @@ Para configurar un sistema en particular:
 
 ![](https://github.com/lozanoje/fvtt-module-investigator-es/blob/assets/Ajustes.jpg)
 
+- Establezca el idioma del mundo a español en la Configurar ajustes/Preferencia de idioma
 - Seleccione las opciones del módulo (1).
 - Seleccione el sistema que quiere utilizar (2).
 - Marque la casilla *Restablecer configuración del sistema" (3).
@@ -52,7 +53,7 @@ A partir de ahora, tanto PJs como PNJs usarán las habilidades del sistema selec
 
 ![](https://github.com/lozanoje/fvtt-module-investigator-es/blob/assets/Ejemplo.jpg)
 
-Actualmente el sistema soporta los siguientes sistemas:
+Actualmente el sistema soporta los siguientes juegos:
 
 ![](https://github.com/lozanoje/fvtt-module-investigator-es/blob/assets/Compendios.jpg)
 
