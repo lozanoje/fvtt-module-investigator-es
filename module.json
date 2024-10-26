@@ -2,10 +2,10 @@
   "title": "Translation: Spanish [Gumshoe]",
   "id": "fvtt-module-investigator-es",
   "description": "Compendios para el sistema INVESTIGATOR",
-  "version": "8.21.3",
+  "version": "8.21.4",
   "compatibility": {
     "minimum": "11",
-    "verified": "12.325",
+    "verified": "12.331",
     "maximum": "12"
   },
   "languages": [{
@@ -44,9 +44,14 @@
           "sorting": "a",
           "color": "#7f8d3f",
           "packs": ["armas-sendero", "habilidades-pj-sendero", "equipo-pj-sendero", "habilidades-pnj-sendero", "equipo-pnj-sendero"]
+        }, {
+          "name": "El rastro de Cthulhu 2a",
+          "sorting": "a",
+          "color": "#044522",
+          "packs": ["armas-rastro", "habilidades-pj-rastro", "equipo-pj-rastro", "habilidades-pnj-rastro", "equipo-pnj-rastro"]
         }
       ],
-      "packs": ["armas-srd"]
+      "packs": ["armas-srd", "fichas-de-personaje"]
     }
   ],
   "packs": [{
@@ -250,11 +255,59 @@
       "system": "investigator",
       "flags": {}
     }, {
+      "name": "habilidades-pj-rastro",
+      "label": "Habilidades PJ El rastro de Cthulhu 2a",
+      "path": "packs/habilidades-pj-rastro.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "armas-rastro",
+      "label": "Armas El rastro de Cthulhu 2a",
+      "path": "packs/armas-rastro.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "habilidades-pnj-rastro",
+      "label": "Habilidades PNJ El rastro de Cthulhu 2a",
+      "path": "packs/habilidades-pnj-rastro.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "equipo-pnj-rastro",
+      "label": "Equipo PNJ El rastro de Cthulhu 2a",
+      "path": "packs/equipo-pnj-rastro.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "equipo-pj-rastro",
+      "label": "Equipo PJ El rastro de Cthulhu 2a",
+      "path": "packs/equipo-pj-rastro.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
       "name": "armas-srd",
       "label": "Armas SRD",
       "path": "packs/armas-srd",
       "private": false,
       "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "fichas-de-personaje",
+      "label": "Fichas de personaje",
+      "path": "packs/fichas-de-personaje",
+      "private": false,
+      "type": "JournalEntry",
       "system": "investigator",
       "flags": {}
     }
