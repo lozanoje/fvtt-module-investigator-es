@@ -488,19 +488,12 @@ function initrastro() {
     game.settings.set("investigator", "personalDetails", [{
           "name": "Motivación",
           "type": "item"
-        },
-				{
-          "name": "Beneficios de la Profesión",
-          "type": "text"
-        },
-				{
-          "name": "Descripción",
-          "type": "text"
         }
       ]);
-    game.settings.set("investigator", "longNotes", ["Fuentes de Estabilidad", "Pilares de Cordura", "Confidente íntimo", "Trasfondo", "Contactos","Notas",]);
-    game.settings.set("investigator", "genericOccupation", "Profesión");
-    game.settings.set("investigator", "investigativeAbilityCategories", ["Académicas", "Interpersonales", "Técnicas", "Poderes psíquicos", ]);
+    game.settings.set("investigator", "longNotes", [
+		"Notas, contactos, etc.", "Beneficios de la Profesión", "Pilares de Cordura", "Fuentes de Estabilidad", "Descripción", "Confidente íntimo", "Trasfondo", ]);
+    game.settings.set("investigator", "genericOccupation", "Investigador");
+    game.settings.set("investigator", "investigativeAbilityCategories", ["Académicas", "Interpersonales", "Técnicas", ]);
     game.settings.set("investigator", "generalAbilityCategories", ["Generales", ]);
     game.settings.set("investigator", "combatAbilities", ["Escaramuza", "Armas", "Armas de fuego", "Atletismo", ]);
     game.settings.set("investigator", "newPCPacks", ["fvtt-module-investigator-es.habilidades-pj-rastro", "fvtt-module-investigator-es.equipo-pj-rastro", ]);
@@ -508,50 +501,39 @@ function initrastro() {
     game.settings.set("investigator", "npcStats", {
       hitThreshold: {
         name: "Umbral de golpe",
-      default:
-        3
+      default: 3
       },
       armor: {
         name: "Protección",
-      default:
-        0
+      default: 0
       },
       alertness: {
         name: "Modificador de atención",
-      default:
-        0
+      default: 0,
+      min: -10
       },
       stealth: {
         name: "Modificador de sigilo",
-      default:
-        0
-      },
-      damageMod: {
-        name: "Modificador al daño",
-      default:
-        0
+      default: 0,
+      min: -10
       },
     });
     game.settings.set("investigator", "pcStats", {
       hitThreshold: {
         name: "Umbral de golpe",
-      default:
-        3
+      default: 3
       },
 			generalPoints: {
-        name: "Puntos de Construcción Generales",
-      default:
-        3
+        name: "Crédito",
+      default: 0
       },
 			investigativePoints: {
-        name: "Puntos de Construcción de Investigación",
-      default:
-        3
+        name: "Potencial Mitos de Cthulhu",
+      default: 0
       },
 			confidentPoints: {
-        name: "Puntos de Construcción de Confidente",
-      default:
-        3
+        name: "Potencial Mágico",
+      default: 0
       },
     });
     game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
