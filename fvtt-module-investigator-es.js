@@ -4,30 +4,29 @@ Hooks.once('ready', () => {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-sendero-es.webp";
   } else if (
-    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-    "esoscriminales") {
+    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "esoscriminales") {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-esoscriminales-es.webp";
   } else if (
-    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-    "guardias") {
+    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "guardias") {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-guardias-es.webp";
   } else if (
-    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-    "cuchillas") {
+    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "cuchillas") {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-cuchillas-es.webp";
   } else if (
-    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-    "miedo") {
+    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "miedo") {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-miedo-es.webp";
   } else if (
-    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-    "rastro") {
+    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "rastro") {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-rastro-es.webp";
+  } else if (
+    game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "caida") {
+    document.getElementById("logo").src =
+      "/modules/fvtt-module-investigator-es/images/fvtt-caida-es.webp";
   }
 });
 
@@ -49,6 +48,7 @@ Hooks.once("renderCompendiumDirectory", () => {
       miedo: "Fear Itself",
       sendero: "El rastro de Cthulhu",
       rastro: "El rastro de Cthulhu 2a",
+      caida: "La Caída de Delta Green",
     },
   });
 
@@ -71,26 +71,24 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "sendero") {
       initsendero();
     } else if (
-      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-      "esoscriminales") {
+      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "esoscriminales") {
       initesoscriminales();
     } else if (
-      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-      "guardias") {
+      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "guardias") {
       initguardias();
     } else if (
-      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-      "cuchillas") {
+      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "cuchillas") {
       initcuchillas();
     } else if (
-      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-      "miedo") {
+      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "miedo") {
       initmiedo();
     } else if (
-      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") ===
-      "rastro") {
+      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "rastro") {
       initrastro();
-    }else {
+    } else if (
+      game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "caida") {
+      initcaida();
+    } else {
       game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
     }
   }
@@ -539,4 +537,64 @@ function initrastro() {
     game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
   }, 2000);
 }
+
+function initcaida() {
+  setTimeout(() => {
+    game.settings.set("investigator", "systemPreset", "customSystem");
+    game.settings.set("investigator", "defaultThemeName", "greenTriangleTheme");
+    game.settings.set("investigator", "occupationLabel", "Profesión/rango");
+    game.settings.set("investigator", "personalDetails", [{
+          "name": "Motivación",
+          "type": "item"
+        }
+      ]);
+    game.settings.set("investigator", "longNotes", ["Edad y fecha de nacimiento", "Nacionalidad", "Rama/departamento", "Educación", "Servicio militar", "Entrenamiento especial (habilidad)", "Entrenamiento especial (arma)", "Hipergeometría (potencial)", "Hipergeometría (valor)", "Adaptado a (violencia)", "Adaptado a (impotencia)", "Hoja de servicio/biografía", "Evento incitador", ]);
+    game.settings.set("investigator", "genericOccupation", "Agente");
+    game.settings.set("investigator", "investigativeAbilityCategories", ["Académicas", "Interpersonales", "Técnicas", ]);
+    game.settings.set("investigator", "generalAbilityCategories", ["Generales", ]);
+    game.settings.set("investigator", "combatAbilities", ["Combate sin armas", "Armas cuerpo a cuerpo", "Armas de fuego", "Armas pesadas", "Atletismo", ]);
+    game.settings.set("investigator", "newPCPacks", ["fvtt-module-investigator-es.habilidades-pj-caida", "fvtt-module-investigator-es.equipo-pj-caida", ]);
+    game.settings.set("investigator", "newNPCPacks", ["fvtt-module-investigator-es.habilidades-pnj-caida", "fvtt-module-investigator-es.equipo-pnj-caida", ]);
+    game.settings.set("investigator", "npcStats", {
+      hitThreshold: {
+        name: "Umbral de golpe",
+      default: 3
+      },
+      armor: {
+        name: "Protección",
+      default: 0
+      },
+      alertness: {
+        name: "Modificador de atención",
+      default: 0,
+      min: -10
+      },
+      stealth: {
+        name: "Modificador de sigilo",
+      default: 0,
+      min: -10
+      },
+    });
+    game.settings.set("investigator", "pcStats", {
+      hitThreshold: {
+        name: "Umbral de golpe",
+      default: 3
+      },
+			generalPoints: {
+        name: "Crédito",
+      default: 0
+      },
+			investigativePoints: {
+        name: "Potencial Mitos de Cthulhu",
+      default: 0
+      },
+			confidentPoints: {
+        name: "Potencial Mágico",
+      default: 0
+      },
+    });
+    game.settings.set("fvtt-module-investigator-es", "restablecer-investigator", false);
+  }, 2000);
+}
+
 });

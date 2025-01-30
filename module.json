@@ -2,7 +2,7 @@
   "title": "Translation: Spanish [Gumshoe]",
   "id": "fvtt-module-investigator-es",
   "description": "Compendios para el sistema INVESTIGATOR",
-  "version": "8.24.1",
+  "version": "8.24.3",
   "compatibility": {
     "minimum": "11",
     "verified": "12.331",
@@ -20,14 +20,14 @@
       "sorting": "a",
       "color": "#144e66",
       "folders": [{
-          "name": "Swords of the Serpentine",
+          "name": "Espadas del Serpentino",
           "sorting": "a",
           "color": "#983464",
           "packs": ["armas-cuchillas", "habilidades-pj-cuchillas", "equipo-pj-cuchillas", "habilidades-pnj-cuchillas", "equipo-pnj-cuchillas"]
         }, {
           "name": "Esoterroristas",
           "sorting": "a",
-          "color": "#d6902e",
+          "color": "#fde382",
           "packs": ["armas-esoscriminales", "habilidades-pj-esoscriminales", "equipo-pj-esoscriminales", "habilidades-pnj-esoscriminales", "equipo-pnj-esoscriminales"]
         }, {
           "name": "Agentes de la noche",
@@ -49,6 +49,11 @@
           "sorting": "a",
           "color": "#044522",
           "packs": ["armas-rastro", "habilidades-pj-rastro", "equipo-pj-rastro", "habilidades-pnj-rastro", "equipo-pnj-rastro"]
+        }, {
+          "name": "La Caída de Delta Green",
+          "sorting": "a",
+          "color": "#fe8502",
+          "packs": ["armas-caida", "habilidades-pj-caida", "equipo-pj-caida", "habilidades-pnj-caida", "equipo-pnj-caida"]
         }
       ],
       "packs": ["armas-srd", "fichas-de-personaje"]
@@ -56,7 +61,7 @@
   ],
   "packs": [{
       "name": "habilidades-pj-cuchillas",
-      "label": "Habilidades PJ Swords of the Serpentine",
+      "label": "Habilidades PJ Espadas del Serpentino",
       "path": "packs/habilidades-pj-cuchillas.db",
       "private": false,
       "type": "Item",
@@ -64,7 +69,7 @@
       "flags": {}
     }, {
       "name": "habilidades-pnj-cuchillas",
-      "label": "Habilidades PNJ Swords of the Serpentine",
+      "label": "Habilidades PNJ Espadas del Serpentino",
       "path": "packs/habilidades-pnj-cuchillas.db",
       "private": false,
       "type": "Item",
@@ -72,7 +77,7 @@
       "flags": {}
     }, {
       "name": "armas-cuchillas",
-      "label": "Armas Swords of the Serpentine",
+      "label": "Armas Espadas del Serpentino",
       "path": "packs/armas-cuchillas.db",
       "private": false,
       "type": "Item",
@@ -80,7 +85,7 @@
       "flags": {}
     }, {
       "name": "equipo-pj-cuchillas",
-      "label": "Equipo PJ Swords of the Serpentine",
+      "label": "Equipo PJ Espadas del Serpentino",
       "path": "packs/equipo-pj-cuchillas.db",
       "private": false,
       "type": "Item",
@@ -88,7 +93,7 @@
       "flags": {}
     }, {
       "name": "equipo-pnj-cuchillas",
-      "label": "Equipo PNJ Swords of the Serpentine",
+      "label": "Equipo PNJ Espadas del Serpentino",
       "path": "packs/equipo-pnj-cuchillas.db",
       "private": false,
       "type": "Item",
@@ -290,6 +295,46 @@
       "name": "equipo-pj-rastro",
       "label": "Equipo PJ El rastro de Cthulhu 2a",
       "path": "packs/equipo-pj-rastro.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "habilidades-pj-caida",
+      "label": "Habilidades PJ La Caída de Delta Green",
+      "path": "packs/habilidades-pj-caida.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "armas-caida",
+      "label": "Armas La Caída de Delta Green",
+      "path": "packs/armas-caida.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "habilidades-pnj-caida",
+      "label": "Habilidades PNJ La Caída de Delta Green",
+      "path": "packs/habilidades-pnj-caida.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "equipo-pnj-caida",
+      "label": "Equipo PNJ La Caída de Delta Green",
+      "path": "packs/equipo-pnj-caida.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    }, {
+      "name": "equipo-pj-caida",
+      "label": "Equipo PJ La Caída de Delta Green",
+      "path": "packs/equipo-pj-caida.db",
       "private": false,
       "type": "Item",
       "system": "investigator",
