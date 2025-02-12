@@ -114,7 +114,6 @@
   "investigator.Test": "Tirar",
   "investigator.Theme": "Tema",
   "investigator.Total": "Total",
-  "investigator.UseSystemDefault": "Usar el sistema por defecto",
   "investigator.UsesAmmo": "¿Usa munición?",
   "investigator.VisualTheme": "Tema visual",
   "investigator.Weapon": "Arma",
@@ -244,7 +243,7 @@
   "investigator.TooManyPushPools": "Tiene demasiadas reservas forzadas. Solo se usará la primera.",
   "investigator.QuickShockAbilityWithoutPushPool": "Tiene habilidades QuickShock pero no reserva forzada.",
   "investigator.PushPoolWithoutQuickShockAbility": "Tiene reserva forzada pero no habilidades QuickShock.",
-  "investigator.GoalOrLimit": "¿Objetivo/Límite?",
+  "investigator.GoalOrLimit": "¿Objetivo/límite?",
   "investigator.Goal": "Objetivo",
   "investigator.Limit": "Límite",
   "investigator.None": "Ninguno",
@@ -256,5 +255,7 @@
   "investigator.Toggle": "Conmutar",
   "investigator.Initiative": "Iniciativa",
   "investigator.NotFound": "¡No encontrado!",
-  "investigator.Other": "Otro"
+  "investigator.Other": "Otro",
+  "investigator.ResourceID": "ID del recurso",
+  "investigator.LinkToResource": "Enlace al recurso"
 }

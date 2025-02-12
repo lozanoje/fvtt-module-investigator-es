@@ -114,7 +114,6 @@
   "investigator.Test": "Test",
   "investigator.Theme": "Theme",
   "investigator.Total": "Total",
-  "investigator.UseSystemDefault": "Use system default",
   "investigator.UsesAmmo": "Uses ammo?",
   "investigator.VisualTheme": "Visual theme",
   "investigator.Weapon": "Weapon",
@@ -256,5 +255,7 @@
   "investigator.Toggle": "Toggle",
   "investigator.Initiative": "Initiative",
   "investigator.NotFound": "Not Found!",
-  "investigator.Other": "Other"
+  "investigator.Other": "Other",
+  "investigator.ResourceID": "Resource ID",
+  "investigator.LinkToResource": "Link to resource?"
 }
