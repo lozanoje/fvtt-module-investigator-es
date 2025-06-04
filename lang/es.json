@@ -257,5 +257,8 @@
   "investigator.NotFound": "¡No encontrado!",
   "investigator.Other": "Otro",
   "investigator.ResourceID": "ID del recurso",
-  "investigator.LinkToResource": "Enlace al recurso"
+  "investigator.LinkToResource": "Enlace al recurso",
+  "investigator.EncounterNofM": "Encuentro {N} de {M}",
+  "investigator.NoCombat": "No hay combates activos",
+  "investigator.NoParticipants": "Aún no hay contendientes"
 }
