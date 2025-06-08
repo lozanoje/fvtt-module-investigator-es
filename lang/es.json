@@ -260,5 +260,10 @@
   "investigator.LinkToResource": "Enlace al recurso",
   "investigator.EncounterNofM": "Encuentro {N} de {M}",
   "investigator.NoCombat": "No hay combates activos",
-  "investigator.NoParticipants": "Aún no hay contendientes"
+  "investigator.NoParticipants": "Aún no hay contendientes",
+  "investigator.PartySheetClass": "Hoja de grupo",
+  "investigator.PCSheetClass": "Hoja de PJ",
+  "investigator.NPCSheetClass": "Hoja de PNJ",
+  "investigator.ExportToFile": "Exportar a JSON",
+  "investigator.ImportFromFile": "Importar de JSON"
 }
