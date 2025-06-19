@@ -1,5 +1,5 @@
 Hooks.once('ready', () => {
-  if (
+  /* if (
     game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "sendero") {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-sendero-es.webp";
@@ -27,7 +27,7 @@ Hooks.once('ready', () => {
     game.settings.get("fvtt-module-investigator-es", "sistema-investigator") === "caida") {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-caida-es.webp";
-  }
+  } */
 });
 
 Hooks.once("renderCompendiumDirectory", () => {
