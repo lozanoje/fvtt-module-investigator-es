@@ -28,6 +28,47 @@ Hooks.once('ready', () => {
     document.getElementById("logo").src =
       "/modules/fvtt-module-investigator-es/images/fvtt-caida-es.webp";
   } */
+  const  serpentineData = {
+  schemaVersion: "v1",
+  displayName: "Espadas del Serpentino (módulo)",
+  global: `
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+    @import url('https://db.onlinewebfonts.com/c/385b2e844755c43a7bf26dbc7de55fd2?family=Augusta+Regular');
+  `,
+  largeSheetRootStyle: {
+    backgroundImage: `url(modules/fvtt-module-investigator-es/images/serpentineTheme.webp)`
+  },
+  bodyFont: "16px 'EB Garamond', sans-serif",
+  displayFont: "normal small-caps normal 1em 'Augusta Regular', serif",
+  logo: {
+    frontTextElementStyle: {
+      background: "linear-gradient(135deg, #efb183 0%,#222 30%,#efb183 90%)",
+      backgroundClip: "text"
+    },
+    rearTextElementStyle: {
+      textShadow: "2px 0px 1px black, 6px 0px 4px rgba(0,0,0,0.5), -1px 0px 0px rgba(255,255,255,0.5)"
+    },
+    textElementsStyle: {
+      transform: "rotateY(-30deg) rotateZ(-1deg) translateX(-5%)"
+    },
+    backdropStyle: {
+      perspective: "500px",
+      perspectiveOrigin: "50% 50%",
+      backgroundImage: "radial-gradient(closest-side, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%)"
+    }
+  },
+  colors: {
+    accent: "#000000",
+    accentContrast: "white",
+    glow: "#722214",
+    wallpaper: "#ddd",
+    backgroundSecondary: "rgba(255,255,255,0.2)",
+    backgroundPrimary: "rgba(255,255,255,0.5)",
+    backgroundButton: "rgba(0,0,0,0.1)",
+    text: "#722214"
+  }
+}
+  CONFIG.Investigator?.installTheme("serpentineTheme", serpentineData);
 });
 
 Hooks.once("renderCompendiumDirectory", () => {
@@ -42,7 +83,7 @@ Hooks.once("renderCompendiumDirectory", () => {
     choices: {
       // If choices are defined, the resulting setting will be a select menu
       Ninguno: "Ninguno",
-      cuchillas: "Swords of the Serpentine",
+      cuchillas: "Espadas del Serpentino",
       esoscriminales: "Esoterroristas",
       guardias: "Agentes de la noche",
       miedo: "Fear Itself",
@@ -299,21 +340,21 @@ Hooks.once("renderCompendiumDirectory", () => {
   function initcuchillas() {
     setTimeout(() => {
       game.settings.set("investigator", "systemPreset", "customSystem");
-      game.settings.set("investigator", "defaultThemeName", "antiquarianTheme");
+      game.settings.set("investigator", "defaultThemeName", "serpentineTheme");
       game.settings.set("investigator", "occupationLabel", "Profesión");
       game.settings.set("investigator", "personalDetails", [
 			{
-            "name": "Nombre real",
+            "name": "Nombre verdadero",
             "type": "text"
           }, {
             "name": "Adjetivos",
             "type": "text"
           }, {
-            "name": "Motivaciones",
+            "name": "Reputación",
             "type": "text"
           }
         ]);
-      game.settings.set("investigator", "longNotes", ["Esferas de hechicería","¿Qué es lo mejor de la vida?","Notas",]);
+      game.settings.set("investigator", "longNotes", ["Motivaciones: ¿Qué es lo mejor de la vida?","Hechicería afecta a","Esferas de hechicería","Otros detalles/información",]);
       game.settings.set("investigator", "genericOccupation", "Héroe");
       game.settings.set("investigator", "investigativeAbilityCategories", [
           "Sociales",
@@ -321,13 +362,14 @@ Hooks.once("renderCompendiumDirectory", () => {
           "Ladrón",
           "Centinela",
           "Hechicero",
+          "Lealtades",
         ]);
       game.settings.set("investigator", "generalAbilityCategories", [
           "Generales",
         ]);
       game.settings.set("investigator", "combatAbilities", [
-          "Lucha",
-          "Influencia",
+          "Luchar",
+          "Influir",
           "Hechicería",
         ]);
       game.settings.set("investigator", "newPCPacks", [
@@ -340,7 +382,7 @@ Hooks.once("renderCompendiumDirectory", () => {
         ]);
       game.settings.set("investigator", "npcStats", {
         hitThreshold: {
-          name: "Umbral de golpe",
+          name: "Umbral de salud",
         default:
           0
         },
@@ -355,7 +397,7 @@ Hooks.once("renderCompendiumDirectory", () => {
           0
         },
         grit: {
-          name: "Coraje",
+          name: "Audacia",
         default:
           0
         },
@@ -372,7 +414,7 @@ Hooks.once("renderCompendiumDirectory", () => {
       });
       game.settings.set("investigator", "pcStats", {
         hitThreshold: {
-          name: "Umbral de golpe",
+          name: "Umbral de salud",
         default:
           3
         },
@@ -387,10 +429,21 @@ Hooks.once("renderCompendiumDirectory", () => {
           1
         },
         grit: {
-          name: "Coraje",
+          name: "Audacia",
         default:
           1
         },
+        wealth: {
+      name: "Riqueza",
+      default: 0,
+      min: 0
+    },
+        standardLiving: {
+      name: "Nivel de vida",
+      default: 0,
+      min: 0,
+      max: 2
+    },
       });
 
       game.settings.set("investigator", "useBoost", false);

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "v1",
+  "displayName": "Espadas del Serpentino (Copia local)",
+  "global": "@import url(\"https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap\");\n@import url(\"https://db.onlinewebfonts.com/c/385b2e844755c43a7bf26dbc7de55fd2?family=Augusta+Regular\");",
+  "largeSheetRootStyle": {
+    "backgroundImage": "url(modules/fvtt-module-investigator-es/images/serpentineTheme.webp)"
+  },
+  "bodyFont": "16px 'EB Garamond', sans-serif",
+  "displayFont": "normal small-caps normal 1em 'Augusta Regular', serif",
+  "logo": {
+    "frontTextElementStyle": {
+      "background": "linear-gradient(135deg, #efb183 0%,#222 30%,#efb183 90%)",
+      "backgroundClip": "text"
+    },
+    "rearTextElementStyle": {
+      "textShadow": "2px 0px 1px black, 6px 0px 4px rgba(0,0,0,0.5), -1px 0px 0px rgba(255,255,255,0.5)"
+    },
+    "textElementsStyle": {
+      "transform": "rotateY(-30deg) rotateZ(-1deg) translateX(-5%)"
+    },
+    "backdropStyle": {
+      "perspective": "500px",
+      "perspectiveOrigin": "50% 50%",
+      "backgroundImage": "radial-gradient(closest-side, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%)"
+    }
+  },
+  "colors": {
+    "accent": "#000000",
+    "accentContrast": "white",
+    "glow": "#722214",
+    "wallpaper": "#ddd",
+    "backgroundSecondary": "rgba(255,255,255,0.2)",
+    "backgroundPrimary": "rgba(255,255,255,0.5)",
+    "backgroundButton": "rgba(0,0,0,0.1)",
+    "text": "#722214"
+  }
+}

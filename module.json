@@ -2,10 +2,10 @@
   "title": "Translation: Spanish [Gumshoe]",
   "id": "fvtt-module-investigator-es",
   "description": "Compendios para el sistema INVESTIGATOR",
-  "version": "9.100.1",
+  "version": "9.100.2",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.345",
+    "verified": "13.350",
     "maximum": "13"
   },
   "languages": [{
@@ -23,7 +23,7 @@
           "name": "Espadas del Serpentino",
           "sorting": "a",
           "color": "#983464",
-          "packs": ["armas-cuchillas", "habilidades-pj-cuchillas", "equipo-pj-cuchillas", "habilidades-pnj-cuchillas", "equipo-pnj-cuchillas"]
+          "packs": ["armas-cuchillas", "habilidades-pj-cuchillas", "equipo-pj-cuchillas", "habilidades-pnj-cuchillas", "equipo-pnj-cuchillas", "profesiones-cuchillas"]
         }, {
           "name": "Esoterroristas",
           "sorting": "a",
@@ -95,6 +95,14 @@
       "name": "equipo-pnj-cuchillas",
       "label": "Equipo PNJ Espadas del Serpentino",
       "path": "packs/equipo-pnj-cuchillas.db",
+      "private": false,
+      "type": "Item",
+      "system": "investigator",
+      "flags": {}
+    },{
+      "name": "profesiones-cuchillas",
+      "label": "Profesiones Espadas del Serpentino",
+      "path": "packs/profesiones-cuchillas",
       "private": false,
       "type": "Item",
       "system": "investigator",
