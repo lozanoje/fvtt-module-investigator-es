@@ -354,7 +354,7 @@ Hooks.once("renderCompendiumDirectory", () => {
             "type": "text"
           }
         ]);
-      game.settings.set("investigator", "longNotes", ["Motivaciones: ¿Qué es lo mejor de la vida?","Hechicería afecta a","Esferas de hechicería","Otros detalles/información",]);
+      game.settings.set("investigator", "longNotes", ["Motivaciones: ¿Qué es lo mejor de la vida?","Hechicería afecta a","Esferas de hechicería","Equipo menor e icónico (5 objetos +1 Audacia)","Otros detalles/información",]);
       game.settings.set("investigator", "genericOccupation", "Héroe");
       game.settings.set("investigator", "investigativeAbilityCategories", [
           "Sociales",
@@ -384,12 +384,12 @@ Hooks.once("renderCompendiumDirectory", () => {
         hitThreshold: {
           name: "Umbral de salud",
         default:
-          0
+          3
         },
         moraleThreshold: {
           name: "Umbral de moral",
         default:
-          0
+          3
         },
         armor: {
           name: "Protección",
@@ -426,12 +426,12 @@ Hooks.once("renderCompendiumDirectory", () => {
         armor: {
           name: "Protección",
         default:
-          1
+          0
         },
         grit: {
           name: "Audacia",
         default:
-          1
+          0
         },
         wealth: {
       name: "Riqueza",
