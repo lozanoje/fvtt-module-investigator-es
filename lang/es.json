@@ -258,12 +258,14 @@
   "investigator.Other": "Otro",
   "investigator.ResourceID": "ID del recurso",
   "investigator.LinkToResource": "Enlace al recurso",
-  "investigator.EncounterNofM": "Encuentro {N} de {M}",
   "investigator.NoCombat": "No hay combates activos",
   "investigator.NoParticipants": "Aún no hay contendientes",
   "investigator.PartySheetClass": "Hoja de grupo",
   "investigator.PCSheetClass": "Hoja de PJ",
   "investigator.NPCSheetClass": "Hoja de PNJ",
   "investigator.ExportToFile": "Exportar a JSON",
-  "investigator.ImportFromFile": "Importar de JSON"
+  "investigator.ImportFromFile": "Importar de JSON",
+  "investigator.CreateClassicCombat": "Crear combate clásico",
+  "investigator.CreateTurnPassingCombat": "Crear combate basado en rondas",
+  "investigator.SortCombatants": "Ordenar contendientes"
 }

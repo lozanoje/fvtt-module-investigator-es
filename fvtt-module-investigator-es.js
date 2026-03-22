@@ -342,109 +342,16 @@ Hooks.once("renderCompendiumDirectory", () => {
       game.settings.set("investigator", "systemPreset", "customSystem");
       game.settings.set("investigator", "defaultThemeName", "serpentineTheme");
       game.settings.set("investigator", "occupationLabel", "Profesión");
-      game.settings.set("investigator", "personalDetails", [
-			{
-            "name": "Nombre verdadero",
-            "type": "text"
-          }, {
-            "name": "Adjetivos",
-            "type": "text"
-          }, {
-            "name": "Reputación",
-            "type": "text"
-          }
-        ]);
-      game.settings.set("investigator", "longNotes", ["Motivaciones: ¿Qué es lo mejor de la vida?","Hechicería afecta a","Esferas de hechicería","Equipo menor e icónico (5 objetos +1 Audacia)","Otros detalles/información",]);
+      game.settings.set("investigator", "personalDetails", [{"name":"Nombre verdadero","type":"text"},{"name":"Adjetivos","type":"text"},{"name":"Motivación 1","type":"text"},{"name":"Motivación 2","type":"text"},{"name":"Motivación 3","type":"text"}]);
+      game.settings.set("investigator", "longNotes", ["Reputación","Hechicería afecta a","Esferas de hechicería","Equipo menor e icónico (5 objetos +1 Audacia)","Otros detalles/información",]);
       game.settings.set("investigator", "genericOccupation", "Héroe");
-      game.settings.set("investigator", "investigativeAbilityCategories", [
-          "Sociales",
-          "Guerrero",
-          "Ladrón",
-          "Centinela",
-          "Hechicero",
-          "Lealtades",
-        ]);
-      game.settings.set("investigator", "generalAbilityCategories", [
-          "Generales",
-        ]);
-      game.settings.set("investigator", "combatAbilities", [
-          "Luchar",
-          "Influir",
-          "Hechicería",
-        ]);
-      game.settings.set("investigator", "newPCPacks", [
-          "fvtt-module-investigator-es.habilidades-pj-cuchillas",
-          "fvtt-module-investigator-es.equipo-pj-cuchillas",
-        ]);
-      game.settings.set("investigator", "newNPCPacks", [
-          "fvtt-module-investigator-es.habilidades-pnj-cuchillas",
-          "fvtt-module-investigator-es.equipo-pnj-cuchillas",
-        ]);
-      game.settings.set("investigator", "npcStats", {
-        hitThreshold: {
-          name: "Umbral de salud",
-        default:
-          3
-        },
-        moraleThreshold: {
-          name: "Umbral de moral",
-        default:
-          3
-        },
-        armor: {
-          name: "Protección",
-        default:
-          0
-        },
-        grit: {
-          name: "Audacia",
-        default:
-          0
-        },
-        stealth: {
-          name: "Modificador de sigilo",
-        default:
-          0
-        },
-        alertness: {
-          name: "Modificador de alerta",
-        default:
-          0
-        },
-      });
-      game.settings.set("investigator", "pcStats", {
-        hitThreshold: {
-          name: "Umbral de salud",
-        default:
-          3
-        },
-        moraleThreshold: {
-          name: "Umbral de moral",
-        default:
-          3
-        },
-        armor: {
-          name: "Protección",
-        default:
-          0
-        },
-        grit: {
-          name: "Audacia",
-        default:
-          0
-        },
-        wealth: {
-      name: "Riqueza",
-      default: 0,
-      min: 0
-    },
-        standardLiving: {
-      name: "Nivel de vida",
-      default: 0,
-      min: 0,
-      max: 2
-    },
-      });
+      game.settings.set("investigator", "investigativeAbilityCategories", ["Sociales","Guerrero","Ladrón","Centinela","Hechicero","Lealtades",]);
+      game.settings.set("investigator", "generalAbilityCategories", ["Generales",]);
+      game.settings.set("investigator", "combatAbilities", ["Luchar","Influir","Hechicería",]);
+      game.settings.set("investigator", "newPCPacks", ["fvtt-module-investigator-es.habilidades-pj-cuchillas","fvtt-module-investigator-es.equipo-pj-cuchillas",]);
+      game.settings.set("investigator", "newNPCPacks", ["fvtt-module-investigator-es.habilidades-pnj-cuchillas","fvtt-module-investigator-es.equipo-pnj-cuchillas",]);
+      game.settings.set("investigator", "npcStats", {hitThreshold:{name:"Umbral de salud",default:3},moraleThreshold:{name:"Umbral de moral",default:3},armor:{name:"Protección",default:0},grit:{name:"Audacia",default:0},stealth:{name:"Modificador de sigilo",default:0},alertness:{name:"Modificador de alerta",default:0},});
+      game.settings.set("investigator", "pcStats", {hitThreshold:{name:"Umbral de salud",default:3},moraleThreshold:{name:"Umbral de moral",default:3},armor:{name:"Protección",default:0},grit:{name:"Audacia",default:0},wealth:{name:"Riqueza",default:0,min:0},standardLiving:{name:"Nivel de vida",default:0,min:0,max:2},});
 
       game.settings.set("investigator", "useBoost", false);
       game.settings.set("investigator", "showEmptyInvestigativeCategories", false);
